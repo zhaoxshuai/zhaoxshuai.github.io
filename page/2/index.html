@@ -1,0 +1,964 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="个人博客">
+  <meta name="author" content="赵帅">
+  <meta name="keywords" content="">
+  <title>赵帅的博客</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_pf9vaxs7x7b.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.1.1"></head>
+
+
+<body>
+  <header style="height: 100vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>赵帅的博客</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" href="javascript:">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner intro-2" id="background" parallax=true
+         style="background: url('/img/default.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="container page-header text-center fade-in-up">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+          </div>
+
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-md">
+        <div class="py-5" id="board"
+          style=margin-top:0>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        <a href="/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/Nginx/nginx%E9%85%8D%E7%BD%AE/"></a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/Nginx/nginx%E9%85%8D%E7%BD%AE/">
+          
+          
+            
+          
+          1、简介Nginx是一款轻量级的网页服务器、反向代理服务器。相较于Apache、lighttpd具有占有内存少，稳定性高等优势。它最常的用途是提供反向代理服务。
+2、安装a、准备工作Nginx的安装依赖于以下三个包，意思就是在安装Nginx之前首先必须安装一下的三个包，注意安装顺序如下：
+　　1 SSL功能需要openssl库，直接通过yum安装: #yum install openssl
+　　2
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2020-04-27 08:39" pubdate>
+              2020-04-27
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        <a href="/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/MySQL/1.%E5%88%9B%E5%BB%BA%E5%AF%86%E7%A0%81%E5%B9%B6%E7%99%BB%E9%99%86/"></a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/MySQL/1.%E5%88%9B%E5%BB%BA%E5%AF%86%E7%A0%81%E5%B9%B6%E7%99%BB%E9%99%86/">
+          
+          
+            
+          
+          1、无密码
+通过Yum安装的mysql的管理员账户是没有密码的，这里通过命令设置其密码为 admin 
+mysqladmin -u root password admin
+2、登陆验证
+mysql -uroot -padmin
+show databases;
+
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2020-04-27 08:12" pubdate>
+              2020-04-27
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        <a href="/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/JDK/1%E3%80%81%E5%AE%89%E8%A3%85JDK/"></a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/JDK/1%E3%80%81%E5%AE%89%E8%A3%85JDK/">
+          
+          
+            
+          
+          1、安装JDK
+yum -y install java-1.8.0-openjdk.x86_64
+2、运行
+java -version
+
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2020-04-27 08:05" pubdate>
+              2020-04-27
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        <a href="/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/MySQL/0.%E5%AE%89%E8%A3%85mysql/"></a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/MySQL/0.%E5%AE%89%E8%A3%85mysql/">
+          
+          
+            
+          
+          1、下载
+cd /tmp
+wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm  
+rpm -ivh mysql-community-release-el7-5.noarch.rpm
+
+ 2、通过yum进行安装
+yum install mysql mysql-server mysql-devel -y
+3、启动
+sy
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2020-04-27 08:05" pubdate>
+              2020-04-27
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/6.%E9%87%8D%E5%90%AFvsftpd%E6%9C%8D%E5%8A%A1%E5%99%A8/"></a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/6.%E9%87%8D%E5%90%AFvsftpd%E6%9C%8D%E5%8A%A1%E5%99%A8/">
+          
+          
+            
+          
+          1、重启使用vsftpd服务器
+通常重启使用的命令是：
+systemctl restart vsftpd.service
+最后执行查看状态，以查看重启成功了：
+systemctl status vsftpd.service
+2、开放端口
+a、端口概念
+要访问Linux的端口，必须开通才行。
+再买ECS服务器是，只开通了22和3389端口。22就是SecureCRT链接Linux服务器用的端口号。3
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2020-04-25 12:49" pubdate>
+              2020-04-25
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/5.%E7%94%A8%E6%88%B7%E9%89%B4%E6%9D%83/"></a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/5.%E7%94%A8%E6%88%B7%E9%89%B4%E6%9D%83/">
+          
+          
+            
+          
+          1、关于鉴权
+因为用户 ftptest 是 nologin的，所以存在鉴权的问题。 如果鉴权问题不解决，就是永不停息的 530错误
+2、鉴权方式
+a、pam.d/vsftpd文件
+vi /etc/pam.d/vsftpd
+注释掉/etc/pam.d/vsftpd文件里这一行：#auth required pam_shells.so这样不去鉴权，从而允许 ftptest 这种 nologin用户登录
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2020-04-25 12:43" pubdate>
+              2020-04-25
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/4.%E9%85%8D%E7%BD%AE%E7%AB%AF%E5%8F%A3/"></a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/4.%E9%85%8D%E7%BD%AE%E7%AB%AF%E5%8F%A3/">
+          
+          
+            
+          
+          1、两种端口
+vsftpd有两种端口，一个是21端口，用来监听客户端连接请求的。 这个一般说来是固定的，就一直使用21端口。另一种是，一旦获取到请求之后，再专门用户服务端和客户端传输数据的端口。
+2、配置端口
+打开配置文件：
+ vi /etc/vsftpd/vsftpd.conf在最后添加：
+pasv_enable=YES
+
+pasv_min_port=30000
+
+pasv_max_port=3
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2020-04-25 12:35" pubdate>
+              2020-04-25
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/3.%E9%85%8D%E7%BD%AE%E7%94%A8%E6%88%B7/">3.配置用户</a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/3.%E9%85%8D%E7%BD%AE%E7%94%A8%E6%88%B7/">
+          
+          
+            
+          
+          1、配置用户
+上面创建用户，接下来给vsftpd服务器中配置该用户
+2、去掉匿名登录
+默认情况下vsftpd服务器是允许匿名登录的，不安全。要关掉
+首先通过vi命令打开ftp服务器配置文件：
+vi /etc/vsftpd/vsftpd.conf
+然后把本来的
+anonymous_enable=YES修改为
+anonymous_enable=NO修改完成之后，保存退出
+
+3、限制用户访问
+为了不让刚
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2020-04-25 09:16" pubdate>
+              2020-04-25
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/FTP/">FTP</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA-FTP/">-服务器搭建 -FTP</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/2.ftp%E7%94%A8%E6%88%B7/"></a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/2.ftp%E7%94%A8%E6%88%B7/">
+          
+          
+            
+          
+          1、用户概念
+要连接上vsftpd服务器需要为Linux创建专门的用户。
+2、用户目录
+在Linux中，不同用户是有不同目录访问权限的，所以首先创建一个目录，作为这个ftp用户所拥有的目录。
+Mkdir -p /home/ftp/ftptest
+3、创建用户
+执行如下命令，创建用户ftptest,并且指定其目录为用户目录创建的/home/ftp/ftptest
+useradd -d /home/f
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2020-04-25 08:53" pubdate>
+              2020-04-25
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/1.%E5%AE%89%E8%A3%85vsftpd/"></a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/1.%E5%AE%89%E8%A3%85vsftpd/">
+          
+          
+            
+          
+          1、介绍vsftpd
+vsftpd 全称是：very secure FTP daemon 非常安全的ftp后台程序，及ftp 服务端
+2、安装命令
+yum install vsftpd -y
+执行之后，最后看到Complete! 就表示安装成功了
+3、查看服务启动状态
+启动：systemctl start vsftpd.service
+查看启动状态：systemctl status vsftpd.
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2020-04-25 08:43" pubdate>
+              2020-04-25
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
+  
+  <script>
+    for (ele of document.getElementById("pagination").getElementsByTagName("a")) {
+      ele.href += '#board';
+    }
+  </script>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  </main>
+
+  
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  
+
+  <footer class="mt-5">
+  <div class="text-center py-3">
+    <div>
+      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+      <i class="iconfont icon-love"></i>
+      <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
+        <span>Fluid</span></a>
+    </div>
+    
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- LeanCloud 统计PV -->
+        <span id="leancloud-site-pv-container" style="display: none">
+            总访问量 
+            <span id="leancloud-site-pv"></span>
+             次
+          </span>
+      
+      
+        <!-- LeanCloud 统计UV -->
+        <span id="leancloud-site-uv-container" style="display: none">
+            总访客数 
+            <span id="leancloud-site-uv"></span>
+             人
+          </span>
+      
+
+    
+  </div>
+
+
+    
+
+    
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/main.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+  <script defer>
+  (function () {
+    // 查询存储的记录
+    function getRecord(Counter, target) {
+      return new Promise(function (resolve, reject) {
+        Counter('get', '/classes/Counter?where=' + encodeURIComponent(JSON.stringify({target})))
+          .then(resp => resp.json())
+          .then(({results, code, error}) => {
+            if (code === 401) {
+              throw error;
+            }
+            if (results && results.length > 0) {
+              var record = results[0];
+              resolve(record);
+            } else {
+              Counter('post', '/classes/Counter', {target, time: 0})
+                .then(resp => resp.json())
+                .then((record, error) => {
+                  if (error) {
+                    throw error;
+                  }
+                  resolve(record);
+                }).catch(error => {
+                console.error('Failed to create', error);
+                reject(error);
+              });
+            }
+          }).catch((error) => {
+          console.error('LeanCloud Counter Error:', error);
+          reject(error);
+        });
+      })
+    }
+
+    // 发起自增请求
+    function increment(Counter, incrArr) {
+      return new Promise(function (resolve, reject) {
+        Counter('post', '/batch', {
+          "requests": incrArr
+        }).then((res) => {
+          res = res.json();
+          if (res.error) {
+            throw res.error;
+          }
+          resolve(res);
+        }).catch((error) => {
+          console.error('Failed to save visitor count', error);
+          reject(error);
+        });
+      });
+    }
+
+    // 构建自增请求体
+    function buildIncrement(objectId) {
+      return {
+        "method": "PUT",
+        "path": `/1.1/classes/Counter/${ objectId }`,
+        "body": {
+          "time": {
+            '__op': 'Increment',
+            'amount': 1
+          }
+        }
+      }
+    }
+
+    // 校验是否为有效的 UV
+    function validUV() {
+      var key = 'LeanCloud_UV_Flag';
+      var flag = localStorage.getItem(key);
+      if (flag) {
+        // 距离标记小于 24 小时则不计为 UV
+        if (new Date().getTime() - parseInt(flag) <= 86400000) {
+          return false;
+        }
+      }
+      localStorage.setItem(key, new Date().getTime().toString());
+      return true;
+    }
+
+    function addCount(Counter) {
+      var enableIncr = 'true' === 'true' && window.location.hostname !== 'localhost';
+      var getterArr = [];
+      var incrArr = [];
+
+      // 请求 PV 并自增
+      var pvCtn = document.querySelector('#leancloud-site-pv-container');
+      if (pvCtn || enableIncr) {
+        var pvGetter = getRecord(Counter, 'site-pv').then((record) => {
+          incrArr.push(buildIncrement(record.objectId))
+          var ele = document.querySelector('#leancloud-site-pv');
+          if (ele) {
+            ele.innerText = record.time + 1;
+            if (pvCtn) {
+              pvCtn.style.display = 'inline';
+            }
+          }
+        });
+        getterArr.push(pvGetter);
+      }
+
+      // 请求 UV 并自增
+      var uvCtn = document.querySelector('#leancloud-site-uv-container');
+      if (uvCtn || enableIncr) {
+        var uvGetter = getRecord(Counter, 'site-uv').then((record) => {
+          var vuv = validUV();
+          vuv && incrArr.push(buildIncrement(record.objectId))
+          var ele = document.querySelector('#leancloud-site-uv');
+          if (ele) {
+            ele.innerText = record.time + (vuv ? 1 : 0);
+            if (uvCtn) {
+              uvCtn.style.display = 'inline';
+            }
+          }
+        });
+        getterArr.push(uvGetter);
+      }
+
+      // 如果是文章，请求文章的浏览数，并自增
+      if ('false' === 'true') {
+        var viewCtn = document.querySelector('#leancloud-post-views-container');
+        if (viewCtn || enableIncr) {
+          var target = decodeURI('/page/2/index.html');
+          var viewGetter = getRecord(Counter, target).then((record) => {
+            incrArr.push(buildIncrement(record.objectId))
+            if (viewCtn) {
+              var ele = document.querySelector('#leancloud-post-views');
+              if (ele) {
+                ele.innerText = (record.time || 0) + 1;
+                viewCtn.style.display = 'inline';
+              }
+            }
+          });
+          getterArr.push(viewGetter);
+        }
+      }
+
+      // 如果启动计数自增，批量发起自增请求
+      if (enableIncr) {
+        Promise.all(getterArr).then(() => {
+          incrArr.length > 0 && increment(Counter, incrArr);
+        })
+      }
+    }
+
+    var app_id = '8yvO3gB99K4kY1Msp0V4s24k-gzGzoHsz'
+    var app_key = 'oXlKPmMlIGxtshwfuCVzzU7s'
+    var server_url = 'https://8yvo3gb9.lc-cn-n1-shared.com'
+
+    function fetchData(api_server) {
+      var Counter = (method, url, data) => {
+        return fetch(`${ api_server }/1.1${ url }`, {
+          method,
+          headers: {
+            'X-LC-Id': app_id,
+            'X-LC-Key': app_key,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data)
+        });
+      };
+
+      addCount(Counter);
+    }
+
+    var api_server = app_id.slice(-9) !== '-MdYXbMMI' ? server_url : `https://${ app_id.slice(0, 8).toLowerCase() }.api.lncldglobal.com`;
+
+    if (api_server) {
+      fetchData(api_server);
+    } else {
+      fetch('https://app-router.leancloud.cn/2/route?appId=' + app_id)
+        .then(resp => resp.json())
+        .then(({api_server}) => {
+          fetchData('https://' + api_server);
+        });
+    }
+  })();
+</script>
+
+
+
+
+
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "欢迎来到人类的世界 &nbsp;",
+      ],
+      cursorChar: "_",
+      typeSpeed: 70,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      searchFunc(path, 'local-search-input', 'local-search-result');
+      this.onclick = null
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+</body>
+</html>
