@@ -8,7 +8,7 @@
     <link href="/2020/09/07/hello-world/"/>
     <url>/2020/09/07/hello-world/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="hljs bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="hljs bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="hljs bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">Hey, password is required here.</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="0c7f31db9dc76f0900f8fbb96b3d82764c9773d0dbaafdde85d9ceb95089a000">e616ba5d347f3df29b34e76fe134e369090a5e9d773c3389a698dcf649e99540a1c9cebb0497feb9c8ae0ffe472f9f6f4e111f78f8090c5ed7cae8d37195eaba348072a619bf9d34743588d3450c6e43a3ac138bcc4faa73f61869315947ccc873f6e37128f778b3fc23597cd45db9cc91c2d183564d32f02a343b17e381532add66634f149dbd2d9534243cfbe885270866b9eb88e91eec8387160a0f027f292cbd2ff6bdf0c8783f36231e2e9475a73f38db62d6456ea55c3e691f31cc3a956fbf0234f97695622fa5af351fb08d1f8e89bc1fc50da01dae79cebc34135be76dc03cec5683fc5a20064622dc520f489076ce51c7362d30b73e03cd0925a1a9cd73dd8fcbeaea62add957a238bffa1c7fd37efaae964d5b8e8513abd8cf8c04904d5ef2dcaad6f003cccbc5f6b0374a1c22d9b9663db60c5d8879cb6e33aee44b53619dbe1094dcad838b95de41c0bdb5a08b4d03656987d4ccecd0996bedcf35caa8ae3971dbafd633176f1ca6e3d0ade6af8fa8ed6c2d4c8358a68f3ff95d506ec0d469f0d012807631c16f1a72e9c7d02ea9f3235e1ba4109ba77479e3d7ae6dc8c4f8c4d52f437dbfac8f325efd88e4cc0c06f7900c320f9a0026e74367a7440cf54e56125eae4920d9671c437b8f19fa26de244088f724a0f6a60550805b2f67b3e82e420e87c5781e78cf1751a0cc086eca246056ed74da823d2141f3bda7322bd262274cba6699d82df763550e322317575404377ab222b892f0f7b5cd2b4cdcea037c436be067cc52d59edebad37c96b1af69c64b14ed4379a0112c776c6f90dd9348550759b49605acd7cc9ac8cdd393b1befc206a216e2c18868aaf05d6ca4de60eb97e17b9016489a6f55def55586b7295d0d77d23485c302ae3a678ea558c8242affbcba45519972aeeb1eda47d3c4acad354112a8ca83ef664e51fcf98fe7566284a7b0cecfc3cdba4d5a5e5d36428f8df9f10c807e68fadc63986b5535fa9decdb60d50365c81dd97500eefb8b9cf933c98429ca78f558392b117178c76fa6590d52f668e9eea3b201d22fb64168bb040eafa1f5aa78a490ceaba20b225a8931507941700428e0efdc90ee0cbacfe5024f99771341866ede4a8c0ec2c33b778db801a14c0b8270197f27db3f834be0c408ec2f7b209979dcd94831508f4bdd878d321778c2b9bb1efc8fbe8f1f0fe6a3dd02560852179bfa7aedd5728bf4dad7fe414bbf7dccfd8d3a22077fda6cab21f3b912956425e8ae0ae8f00aacd36af92cd549279bb83989e0574e25d44307ce1f7e819dbe54b18381e2eeade35fe62efcd46c32f3df784fb53d366f727fc653d816904dd1b72a5e3007382d8c3ffbc98da2b5651c8af28aed9763dce5af7a62e6572bb4ac2210fe76f769113cfb15da1a15e2cdb68adfad45618972e770721b225fea0e162e968da39237ec025f7e8304128da23c182a1c0b83d6405f50b11365c2d2d7b59fe40ebdd7351042aa53a185398494e0ee41d024d03347f0ea059c2bc5aaa68bebad1421ee94732b7200803f8f184936e43c71c0e0bc5b19ea1b11941a02556b951ae594a8940456706de5bd58ac0b5b567fc688c0f0e31fb34486331e94c248892f65cd5e0b0448e2024841af48aff38a3b8b6a5f429dd7e6ce5284c16fbd92d878b301234440b3d718aca8f556e5fc6ba16d38fa5a7395f8a1b41761da31d6afef2d2b86d7b88e02772c75beded2e6a2f7eeccaf24c7a46d0d9f56140e2e0bbd430f271f96e3d8a97bc5cade56c933bdbff7a51220c4a081f6878d1208d27b514a8dc33ea3983aa36829eac212237fb7d3458e4072c499dd74bd1d1f657ca4a43cb75c95e5126ccad63730751adcdd374b114d127845ed74a8536a95bbb372d36843a21fe6343a4b4697da75a134d71f8190460e7a25e78dfba5fc5acd72249b4f2597542b7dba569bdb4559949e91e3a0b6b9113682778135d37fe467c1aeb1c6a43535a7284407003deb08f955a9d34840b0d99f2a562b57e584936a00e0cf756c59cb5fde975064e2320511692d49e10d1626578cffe2cb960f760c5bcbfcef488a05223ba9dc5387f0da26314106f05eba883cfd469a8349179fddddd024d6b23c9fd7a29c18e66f8d42bffb16f75658f5058538e6334030570727e199b3e330ed997a077e1282fe053db74518a12e3e28cfaf16fda4acaa9736626b360f597c4cfce86ddeb9e971764f0f4bcc300111ad3b6f14eeff46937101d5c84499980b5</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     
     
@@ -212,13 +212,25 @@
   
   
   <entry>
-    <title></title>
+    <title>4.配置端口</title>
     <link href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/4.%E9%85%8D%E7%BD%AE%E7%AB%AF%E5%8F%A3/"/>
     <url>/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/4.%E9%85%8D%E7%BD%AE%E7%AB%AF%E5%8F%A3/</url>
     
     <content type="html"><![CDATA[<p>1、两种端口</p><p>vsftpd有两种端口，一个是21端口，用来监听客户端连接请求的。 这个一般说来是固定的，就一直使用21端口。<br>另一种是，一旦获取到请求之后，再专门用户服务端和客户端传输数据的端口。</p><p>2、配置端口</p><p>打开配置文件：</p><p> <code>vi /etc/vsftpd/vsftpd.conf</code><br>在最后添加：</p><pre><code class="hljs ini"><span class="hljs-attr">pasv_enable</span>=<span class="hljs-literal">YES</span><span class="hljs-attr">pasv_min_port</span>=<span class="hljs-number">30000</span><span class="hljs-attr">pasv_max_port</span>=<span class="hljs-number">30010</span></code></pre><p> 这表示使用被动模式，用于传输数据的端口分配从30000-30010之间。<br>在后续的Linux开放端口教程中也会做相应的配合工作。</p><p><img src="/images/blogimg/image-20200425124236426.png" alt="image-20200425124236426"></p>]]></content>
     
     
+    <categories>
+      
+      <category>FTP</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>-服务器搭建 -FTP</tag>
+      
+    </tags>
     
   </entry>
   
@@ -341,7 +353,7 @@
   
   
   <entry>
-    <title></title>
+    <title>3.将Eureka改造为高可用集群单机</title>
     <link href="/2020/04/18/SpringCloud/3%E5%B0%86Eureka%E6%94%B9%E9%80%A0%E4%B8%BA%E9%AB%98%E5%8F%AF%E7%94%A8%E9%9B%86%E7%BE%A4/"/>
     <url>/2020/04/18/SpringCloud/3%E5%B0%86Eureka%E6%94%B9%E9%80%A0%E4%B8%BA%E9%AB%98%E5%8F%AF%E7%94%A8%E9%9B%86%E7%BE%A4/</url>
     

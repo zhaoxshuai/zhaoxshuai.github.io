@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>赵帅的博客</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2020-09-07T14:19:32.186Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>赵帅</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2020/09/07/hello-world/"/>
+    <id>http://example.com/2020/09/07/hello-world/</id>
+    <published>2020-09-07T08:59:54.129Z</published>
+    <updated>2020-09-07T14:19:32.186Z</updated>
+    
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">Hey, password is required here.</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="0c7f31db9dc76f0900f8fbb96b3d82764c9773d0dbaafdde85d9ceb95089a000">e616ba5d347f3df29b34e76fe134e369090a5e9d773c3389a698dcf649e99540a1c9cebb0497feb9c8ae0ffe472f9f6f4e111f78f8090c5ed7cae8d37195eaba348072a619bf9d34743588d3450c6e43a3ac138bcc4faa73f61869315947ccc873f6e37128f778b3fc23597cd45db9cc91c2d183564d32f02a343b17e381532add66634f149dbd2d9534243cfbe885270866b9eb88e91eec8387160a0f027f292cbd2ff6bdf0c8783f36231e2e9475a73f38db62d6456ea55c3e691f31cc3a956fbf0234f97695622fa5af351fb08d1f8e89bc1fc50da01dae79cebc34135be76dc03cec5683fc5a20064622dc520f489076ce51c7362d30b73e03cd0925a1a9cd73dd8fcbeaea62add957a238bffa1c7fd37efaae964d5b8e8513abd8cf8c04904d5ef2dcaad6f003cccbc5f6b0374a1c22d9b9663db60c5d8879cb6e33aee44b53619dbe1094dcad838b95de41c0bdb5a08b4d03656987d4ccecd0996bedcf35caa8ae3971dbafd633176f1ca6e3d0ade6af8fa8ed6c2d4c8358a68f3ff95d506ec0d469f0d012807631c16f1a72e9c7d02ea9f3235e1ba4109ba77479e3d7ae6dc8c4f8c4d52f437dbfac8f325efd88e4cc0c06f7900c320f9a0026e74367a7440cf54e56125eae4920d9671c437b8f19fa26de244088f724a0f6a60550805b2f67b3e82e420e87c5781e78cf1751a0cc086eca246056ed74da823d2141f3bda7322bd262274cba6699d82df763550e322317575404377ab222b892f0f7b5cd2b4cdcea037c436be067cc52d59edebad37c96b1af69c64b14ed4379a0112c776c6f90dd9348550759b49605acd7cc9ac8cdd393b1befc206a216e2c18868aaf05d6ca4de60eb97e17b9016489a6f55def55586b7295d0d77d23485c302ae3a678ea558c8242affbcba45519972aeeb1eda47d3c4acad354112a8ca83ef664e51fcf98fe7566284a7b0cecfc3cdba4d5a5e5d36428f8df9f10c807e68fadc63986b5535fa9decdb60d50365c81dd97500eefb8b9cf933c98429ca78f558392b117178c76fa6590d52f668e9eea3b201d22fb64168bb040eafa1f5aa78a490ceaba20b225a8931507941700428e0efdc90ee0cbacfe5024f99771341866ede4a8c0ec2c33b778db801a14c0b8270197f27db3f834be0c408ec2f7b209979dcd94831508f4bdd878d321778c2b9bb1efc8fbe8f1f0fe6a3dd02560852179bfa7aedd5728bf4dad7fe414bbf7dccfd8d3a22077fda6cab21f3b912956425e8ae0ae8f00aacd36af92cd549279bb83989e0574e25d44307ce1f7e819dbe54b18381e2eeade35fe62efcd46c32f3df784fb53d366f727fc653d816904dd1b72a5e3007382d8c3ffbc98da2b5651c8af28aed9763dce5af7a62e6572bb4ac2210fe76f769113cfb15da1a15e2cdb68adfad45618972e770721b225fea0e162e968da39237ec025f7e8304128da23c182a1c0b83d6405f50b11365c2d2d7b59fe40ebdd7351042aa53a185398494e0ee41d024d03347f0ea059c2bc5aaa68bebad1421ee94732b7200803f8f184936e43c71c0e0bc5b19ea1b11941a02556b951ae594a8940456706de5bd58ac0b5b567fc688c0f0e31fb34486331e94c248892f65cd5e0b0448e2024841af48aff38a3b8b6a5f429dd7e6ce5284c16fbd92d878b301234440b3d718aca8f556e5fc6ba16d38fa5a7395f8a1b41761da31d6afef2d2b86d7b88e02772c75beded2e6a2f7eeccaf24c7a46d0d9f56140e2e0bbd430f271f96e3d8a97bc5cade56c933bdbff7a51220c4a081f6878d1208d27b514a8dc33ea3983aa36829eac212237fb7d3458e4072c499dd74bd1d1f657ca4a43cb75c95e5126ccad63730751adcdd374b114d127845ed74a8536a95bbb372d36843a21fe6343a4b4697da75a134d71f8190460e7a25e78dfba5fc5acd72249b4f2597542b7dba569bdb4559949e91e3a0b6b9113682778135d37fe467c1aeb1c6a43535a7284407003deb08f955a9d34840b0d99f2a562b57e584936a00e0cf756c59cb5fde975064e2320511692d49e10d1626578cffe2cb960f760c5bcbfcef488a05223ba9dc5387f0da26314106f05eba883cfd469a8349179fddddd024d6b23c9fd7a29c18e66f8d42bffb16f75658f5058538e6334030570727e199b3e330ed997a077e1282fe053db74518a12e3e28cfaf16fda4acaa9736626b360f597c4cfce86ddeb9e971764f0f4bcc300111ad3b6f14eeff46937101d5c84499980b5</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/09/03/%E9%AB%98%E5%B9%B6%E5%8F%91/CAS/"/>
+    <id>http://example.com/2020/09/03/%E9%AB%98%E5%B9%B6%E5%8F%91/CAS/</id>
+    <published>2020-09-03T14:25:18.201Z</published>
+    <updated>2020-09-07T02:25:28.937Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="CAS："><a href="#CAS：" class="headerlink" title="CAS："></a>CAS：</h1><p>Compare and swap/compare and exchange 比较并且交换</p><p>ABA问题解决：加标签或者版本号</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;CAS：&quot;&gt;&lt;a href=&quot;#CAS：&quot; class=&quot;headerlink&quot; title=&quot;CAS：&quot;&gt;&lt;/a&gt;CAS：&lt;/h1&gt;&lt;p&gt;Compare and swap/compare and exchange 比较并且交换&lt;/p&gt;
+&lt;p&gt;ABA问题解决：加标</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/09/01/kafka/1.%E6%90%AD%E5%BB%BA/"/>
+    <id>http://example.com/2020/09/01/kafka/1.%E6%90%AD%E5%BB%BA/</id>
+    <published>2020-09-01T09:24:44.078Z</published>
+    <updated>2020-09-07T09:57:32.531Z</updated>
+    
+    <content type="html"><![CDATA[<p>jdk：<a href="https://www.cnblogs.com/songxingzhu/p/9254749.html">https://www.cnblogs.com/songxingzhu/p/9254749.html</a></p><p>kafka：<a href="https://developer.aliyun.com/article/708277">https://developer.aliyun.com/article/708277</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;jdk：&lt;a href=&quot;https://www.cnblogs.com/songxingzhu/p/9254749.html&quot;&gt;https://www.cnblogs.com/songxingzhu/p/9254749.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;kafka：&lt;a h</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/09/01/MongoDB/1.%E5%88%9B%E5%BB%BA%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <id>http://example.com/2020/09/01/MongoDB/1.%E5%88%9B%E5%BB%BA%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
+    <published>2020-09-01T08:15:16.769Z</published>
+    <updated>2020-09-07T09:57:37.138Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="MongoDB连接："><a href="#MongoDB连接：" class="headerlink" title="MongoDB连接："></a>MongoDB连接：</h1><p>执行mongo</p><h1 id="MongoDB创建数据库："><a href="#MongoDB创建数据库：" class="headerlink" title="MongoDB创建数据库："></a>MongoDB创建数据库：</h1><pre><code class="hljs sql"><span class="hljs-keyword">use</span> database_name</code></pre><p>查看数据库：</p><pre><code class="hljs sql"><span class="hljs-keyword">show</span> dbs</code></pre><p>新创建的数据库刚开始会看不到，必须向数据库插入一条数据。</p><pre><code class="hljs sql">db.database_name.insert(&#123;&quot;name&quot;:&quot;XXX&quot;&#125;)</code></pre><p>在执行show dbs,就会看到新建的数据库。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;MongoDB连接：&quot;&gt;&lt;a href=&quot;#MongoDB连接：&quot; class=&quot;headerlink&quot; title=&quot;MongoDB连接：&quot;&gt;&lt;/a&gt;MongoDB连接：&lt;/h1&gt;&lt;p&gt;执行mongo&lt;/p&gt;
+&lt;h1 id=&quot;MongoDB创建数据库：&quot;&gt;&lt;a </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/08/31/On%20Java8/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%A6%82%E5%BF%B5/"/>
+    <id>http://example.com/2020/08/31/On%20Java8/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%A6%82%E5%BF%B5/</id>
+    <published>2020-08-31T06:42:59.338Z</published>
+    <updated>2020-09-07T09:57:42.934Z</updated>
+    
+    <content type="html"><![CDATA[<p>面向对象编程是一种编程思维方式和编码架构。</p><h1 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h1><p>List：常用于保存序列；</p><p>Map：常用于将对象与其他对象关联；</p><p>Set：只能保存非重复的值；</p><p>其他包括队列（Queue）、树（Tree）、栈（Stack）、堆（Heap）等等。</p><h2 id="ArrayList和LinkedList区别："><a href="#ArrayList和LinkedList区别：" class="headerlink" title="ArrayList和LinkedList区别："></a>ArrayList和LinkedList区别：</h2><p>两者具有相同接口和外部行为，但是在某些操作中它们的效率差别很大。在ArrayList中随机查找元素是很高效的，而LinkedList随机查找效率低下。反之，在LinkedList中插入元素的效率要比在ArrayList中高。由于底层数据结构的不同，每种集合类型在执行相同的操作时会表现出效率上的差异。</p><h2 id="面向对象编程的一个优点是："><a href="#面向对象编程的一个优点是：" class="headerlink" title="面向对象编程的一个优点是："></a>面向对象编程的一个优点是：</h2><p>设计良好的java程序代码更容易被人阅读理解。由于java类库的复用性，通常程序要写的代码也会少的多。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;面向对象编程是一种编程思维方式和编码架构。&lt;/p&gt;
+&lt;h1 id=&quot;集合&quot;&gt;&lt;a href=&quot;#集合&quot; class=&quot;headerlink&quot; title=&quot;集合&quot;&gt;&lt;/a&gt;集合&lt;/h1&gt;&lt;p&gt;List：常用于保存序列；&lt;/p&gt;
+&lt;p&gt;Map：常用于将对象与其他对象关联；&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/08/27/%E7%AE%97%E6%B3%95/%E9%80%92%E5%BD%92/"/>
+    <id>http://example.com/2020/08/27/%E7%AE%97%E6%B3%95/%E9%80%92%E5%BD%92/</id>
+    <published>2020-08-27T02:14:32.314Z</published>
+    <updated>2020-09-07T09:57:22.134Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1、编写递归代码最重要的三点："><a href="#1、编写递归代码最重要的三点：" class="headerlink" title="1、编写递归代码最重要的三点："></a>1、编写递归代码最重要的三点：</h1><ul><li>递归总有一个最简单的情况–方法的第一条语句总是包含return的条件语句。</li><li>递归调用总是尝试解决一个规模更小的子问题，这样递归才能收敛到最简单的情况。</li><li>递归调用的父类问题和尝试解决的子问题之间不应该有交集。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;1、编写递归代码最重要的三点：&quot;&gt;&lt;a href=&quot;#1、编写递归代码最重要的三点：&quot; class=&quot;headerlink&quot; title=&quot;1、编写递归代码最重要的三点：&quot;&gt;&lt;/a&gt;1、编写递归代码最重要的三点：&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;递归总有一个最简单的情况</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/07/29/%E7%AE%97%E6%B3%95/%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/"/>
+    <id>http://example.com/2020/07/29/%E7%AE%97%E6%B3%95/%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</id>
+    <published>2020-07-29T14:04:37.723Z</published>
+    <updated>2020-09-07T09:57:28.401Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="算法的时间和空间复杂度："><a href="#算法的时间和空间复杂度：" class="headerlink" title="算法的时间和空间复杂度："></a>算法的时间和空间复杂度：</h1><p>时间复杂度和空间复杂度是用来衡量算法的快慢的。</p><p>引：<a href="https://zhuanlan.zhihu.com/p/50479555">https://zhuanlan.zhihu.com/p/50479555</a></p><p>时间复杂度：看循环</p><p>空间复杂度：看分配空间，比如new对象</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;算法的时间和空间复杂度：&quot;&gt;&lt;a href=&quot;#算法的时间和空间复杂度：&quot; class=&quot;headerlink&quot; title=&quot;算法的时间和空间复杂度：&quot;&gt;&lt;/a&gt;算法的时间和空间复杂度：&lt;/h1&gt;&lt;p&gt;时间复杂度和空间复杂度是用来衡量算法的快慢的。&lt;/p&gt;
+&lt;p</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/04/30/SpringCloud/6.%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83Spring%20Cloud%20Config%E5%88%9D%E4%BD%93%E9%AA%8C/"/>
+    <id>http://example.com/2020/04/30/SpringCloud/6.%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83Spring%20Cloud%20Config%E5%88%9D%E4%BD%93%E9%AA%8C/</id>
+    <published>2020-04-30T08:13:14.780Z</published>
+    <updated>2020-09-07T05:38:54.230Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/04/30/SpringCloud/5.%E7%86%94%E6%96%AD%E5%99%A8Hystrix%E7%9A%84%E4%BD%BF%E7%94%A8+%20%E5%8F%AF%E8%A7%86%E5%8C%96%E7%9B%91%E6%8E%A7Dashboard%E5%92%8CTurbine/"/>
+    <id>http://example.com/2020/04/30/SpringCloud/5.%E7%86%94%E6%96%AD%E5%99%A8Hystrix%E7%9A%84%E4%BD%BF%E7%94%A8+%20%E5%8F%AF%E8%A7%86%E5%8C%96%E7%9B%91%E6%8E%A7Dashboard%E5%92%8CTurbine/</id>
+    <published>2020-04-30T01:56:30.760Z</published>
+    <updated>2020-09-07T09:59:38.278Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="什么是Hystrix之熔断和降级"><a href="#什么是Hystrix之熔断和降级" class="headerlink" title="什么是Hystrix之熔断和降级"></a>什么是Hystrix之熔断和降级</h1><p>官方:在分布式环境中，不可避免地会有许多服务依赖项中的某些失败。Hystrix是一个库，可通过添加等待时间容限和容错逻辑来帮助你控制这些分布式服务之间的交互。Hystrix通过隔离服务之间的访问点，停止服务之间的级联故障并提供后备选项实现此目的，所有这些都可以提高系统的整体弹性。</p><p>总体来说[Hystrix]就是一个能进行熔断和降级的库，通过使用它能提高整个系统的弹性。</p><h1 id="什么是熔断和降级"><a href="#什么是熔断和降级" class="headerlink" title="什么是熔断和降级"></a>什么是熔断和降级</h1><p>举个例子，此时我们整个微服务系统是这样的。服务A调用了服务B，服务B在调用了服务C，但是因为某些原因，服务C顶不住了，这个时候大量请求会在服务C阻塞。</p><p><img src="/images/blogimg/640-20200430100748935.jpeg" alt="img"></p><p>服务C阻塞了还好，毕竟只是一个系统崩溃了。但是请注意这个时候因为服务C不能返回响应，那么服务B调用服务C的请求就会阻塞，同理服务B阻塞了，那么服务A夜壶一阻塞崩溃。</p><p>***  请注意，为什么阻塞会崩溃。因为这些请求会消耗占用系统的线程、IO等资源，消耗完系统服务器就崩了。</p><p><img src="/images/blogimg/640-20200430101129919.jpeg" alt="img"></p><p>这就叫服务雪崩。</p><p>所谓熔断就是服务雪崩的一种有效解决方案。当指定时间窗内的请求失败率达到设定阈值时，系统将通过断路器直接将此请求链路断开。</p><p>也就是我们上面服务B调用服务C在指定时间窗内，调用的失败率到达了一定的值，那么[Hystrix]则会自动讲服务B与C之间的请求都断了，以免导致服务雪崩现象。</p><p>其实这里所讲的熔断就是指的[Hystrix]中的断路器模式，</p><p>降级是为了更好的用户体验，当一个方法调用异常时，通过执行另一种代码逻辑来给用户友好的回复。这也就是对应着[Hystrix]后备处理模式。可以通过设置fallbackMethod来给一个方法设置备用的代码逻辑。比如这个时候有一个热点新闻出现了，我们会推荐给用户查看详情，然后用户会通过id去查看新闻的详情，但是因为这条新闻太火了，大量用户同时访问可能会导致系统崩溃，那么我么就进行服务降级，一些请求会做一些降级处理比如当前人数太多请稍后查看等等。</p><pre><code class="hljs less"><span class="hljs-comment">// 指定了后备方法调用</span><span class="hljs-variable">@HystrixCommand</span>(fallbackMethod = <span class="hljs-string">&quot;getHystrixNews&quot;</span>)<span class="hljs-variable">@GetMapping</span>(<span class="hljs-string">&quot;/get/news&quot;</span>)public News getNews(<span class="hljs-variable">@PathVariable</span>(<span class="hljs-string">&quot;id&quot;</span>) int id) &#123; <span class="hljs-comment">// 调用新闻系统的获取新闻api 代码逻辑省略*</span>&#125;<span class="hljs-comment">//</span>public News getHystrixNews(<span class="hljs-variable">@PathVariable</span>(<span class="hljs-string">&quot;id&quot;</span>) int id) &#123;  <span class="hljs-comment">// 做服务降级</span>  <span class="hljs-comment">// 返回当前人数太多，请稍后查看</span>&#125;</code></pre><h1 id="使用Feign-Hystrix"><a href="#使用Feign-Hystrix" class="headerlink" title="使用Feign Hystrix"></a>使用Feign Hystrix</h1><p>依然使用子模块：service-feign</p><p>pom文件不需要变化，因为spring-cloud-starter-openfeign已经自带了Hystrix。</p><p>修改配置文件application.yml,增加如下：</p><pre><code class="hljs yaml"><span class="hljs-attr">feign:</span> <span class="hljs-attr">hystrix:</span>  <span class="hljs-attr">enabled:</span> <span class="hljs-literal">true</span><span class="hljs-comment"># 熔断器DashBoard: actuator在boot2.0调整后开关web端点的配置，*代表开启所有</span><span class="hljs-attr">management:</span>  <span class="hljs-attr">endpoints:</span>    <span class="hljs-attr">web:</span>      <span class="hljs-attr">exposure:</span>        <span class="hljs-attr">include:</span> <span class="hljs-string">&quot;*&quot;</span></code></pre><p>接着新建类ServiceHiHystrix继承ServiceHi接口，里面实现了失败下的返回信息：</p><pre><code class="hljs java"><span class="hljs-meta">@Service</span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ServiceHiHystrix</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">ServiceHi</span> </span>&#123;    <span class="hljs-meta">@Override</span>    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">sayHiFromServiceHi</span><span class="hljs-params">(String name)</span> </span>&#123;        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;hello &quot;</span> + name + <span class="hljs-string">&quot;,this message send failed&quot;</span>;    &#125;&#125;</code></pre><p>更改ServiceHi接口，添加上fallback类为刚才新建的类：</p><pre><code class="hljs reasonml">@<span class="hljs-constructor">FeignClient(<span class="hljs-params">value</span> = <span class="hljs-string">&quot;data-server&quot;</span>,<span class="hljs-params">fallback</span> = ServiceHiHystrix.<span class="hljs-params">class</span>)</span></code></pre><p>启动server-feign，data-server和eureka-server测试。</p><p>打开：<a href="http://localhost:8765/hello/test%E3%80%82">http://localhost:8765/hello/test。</a></p><p><img src="/images/blogimg/image-20200430111215839.png" alt="image-20200430111215839"></p><p>接着，关掉服务提供者data-server，来模拟服务宕机的情况，重新访问：<a href="http://localhost:8765/hello/test%E3%80%82">http://localhost:8765/hello/test。</a></p><p><img src="/images/blogimg/image-20200430111259661.png" alt="image-20200430111259661"></p><p>返回了新建的错误信息。</p><h1 id="可视化熔断器监控Hystrix-Dashboard和Turbine"><a href="#可视化熔断器监控Hystrix-Dashboard和Turbine" class="headerlink" title="可视化熔断器监控Hystrix Dashboard和Turbine"></a>可视化熔断器监控Hystrix Dashboard和Turbine</h1><h2 id="Hystrix-Dashboard"><a href="#Hystrix-Dashboard" class="headerlink" title="Hystrix Dashboard"></a>Hystrix Dashboard</h2><p>Hystrix-dashboard是一款针对Hystrix进行实时监控的工具，通过Hystrix Dashboard我们可以在直观地看到各Hystrix Command的请求响应时间，请求成功率等数据。</p><p>在server-feign模块继续修改，上面已经在该模块添加了熔断器。</p><p>首先添加依赖：</p><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>  <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.springframework.cloud<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>  <span class="hljs-comment">&lt;!--spring boot 1.X：spring-cloud-starter-hystrix--&gt;</span>  <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>spring-cloud-starter-netflix-hystrix<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>  <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.springframework.cloud<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>  <span class="hljs-comment">&lt;!--spring boot 1.X：spring-cloud-starter-hystrix-dashboard--&gt;</span>  <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>spring-cloud-starter-netflix-hystrix-dashboard<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span></code></pre><p>启动类修改：</p><pre><code class="hljs less"><span class="hljs-variable">@EnableHystrixDashboard</span><span class="hljs-variable">@EnableCircuitBreaker</span></code></pre><p>启动工程访问：<a href="http://localhost:8765/hystrix%EF%BC%8C%E5%B0%86%E4%BC%9A%E7%9C%8B%E5%88%B0%E5%A6%82%E4%B8%8B%E7%95%8C%E9%9D%A2%EF%BC%9A">http://localhost:8765/hystrix，将会看到如下界面：</a></p><p><img src="images/blogimg/image-20200430112702781.png" alt="image-20200430112702781"></p><p>图中会有一些提示：</p><ul><li>Cluster via Turbine (default cluster): <a href="http://turbine-hostname:port/turbine.stream">http://turbine-hostname:port/turbine.stream</a> </li><li>Cluster via Turbine (custom cluster): <a href="http://turbine-hostname:port/turbine.stream?cluster=[clusterName]">http://turbine-hostname:port/turbine.stream?cluster=[clusterName]</a></li><li>Single Hystrix App: <a href="http://hystrix-app:port/hystrix.stream">http://hystrix-app:port/hystrix.stream</a></li></ul><p>大概意思就是如果查看默认集群使用第一个url，查看指定集群使用第二个url，单个应用的监控使用最后一个，单个应用输入：<a href="http://localhost:8765/actuator/hystrix.stream%EF%BC%8C%E8%BE%93%E5%85%A5%E4%B9%8B%E5%90%8E%E7%82%B9%E5%87%BBmonitor%EF%BC%8C%E8%BF%9B%E5%85%A5%E9%A1%B5%E9%9D%A2%E3%80%82">http://localhost:8765/actuator/hystrix.stream，输入之后点击monitor，进入页面。</a></p><p>如果没有请求会先显示Loading …，访问<a href="http://localhost:9001/hystrix.stream">http://localhost:9001/hystrix.stream</a> 也会不断的显示ping。</p><p><img src="/images/blogimg/image-20200430113122523.png" alt="image-20200430113122523"></p><p>请求服务<a href="http://localhost:8765/hello/test%EF%BC%8C%E5%B0%B1%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%E7%9B%91%E6%8E%A7%E7%9A%84%E6%95%88%E6%9E%9C%E4%BA%86%E3%80%82">http://localhost:8765/hello/test，就可以看到监控的效果了。</a></p><p><img src="/images/blogimg/image-20200430113400187.png" alt="image-20200430113400187"></p><p><img src="/images/blogimg/9428.png" alt="img"></p><p>到此单个应用的熔断监控已经完成了。</p><h1 id="Turbine"><a href="#Turbine" class="headerlink" title="Turbine"></a>Turbine</h1><p>只使用Hystrix Dashboard的话，只能看到单个应用内的服务信息，这明显不够，需要一个工具能让我们汇总系统内多个服务的数据并显示到Hystrix Dashboard上，这个工具就是Turbine。</p><p>在复杂的分布式系统中，相同服务的节点经常需要部署上百甚至上千个，很多时候，运维人员希望能够把相同服务的节点状态以一个整体集群的形式展现出来，这样可以更好的把握整个系统的状态。</p><p>注意：***</p><p>为了演示Turbine，在这里重新新建一个子模块，名为hystrix-dashboard-turbine。</p><p>创建新模块作为单独的监控节点模块，是因为演示dashboard的时候是耦合在了server-feign中，而Turbine需要同时监控多个服务消费者，把他耦合在一个消费者里显得不合时宜。</p><p>创建后，pom.xml中引入：</p><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>  <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.springframework.cloud<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>  <span class="hljs-comment">&lt;!--spring boot 1.X：spring-cloud-starter-hystrix-dashboard--&gt;</span>  <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>spring-cloud-starter-netflix-hystrix-dashboard<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>  <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.springframework.cloud<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>  <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>spring-cloud-netflix-turbine<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span></code></pre><p>启动类中@EnableTurbine和@EnableHystrixDashboard：</p><pre><code class="hljs less"><span class="hljs-variable">@SpringBootApplication</span><span class="hljs-variable">@EnableTurbine</span><span class="hljs-variable">@EnableHystrixDashboard</span>public class HystrixDashboardTurbineApplication &#123;    <span class="hljs-selector-tag">public</span> <span class="hljs-selector-tag">static</span> <span class="hljs-selector-tag">void</span> <span class="hljs-selector-tag">main</span>(String[] args) &#123;        <span class="hljs-selector-tag">SpringApplication</span><span class="hljs-selector-class">.run</span>(HystrixDashboardTurbineApplication.class, args);    &#125;&#125;</code></pre><p>yml中：</p><pre><code class="hljs less"><span class="hljs-attribute">server</span>:  <span class="hljs-attribute">port</span>: <span class="hljs-number">8767</span><span class="hljs-attribute">spring</span>:  <span class="hljs-attribute">application</span>:    <span class="hljs-attribute">name</span>: hystrix-dashboard-turbine<span class="hljs-attribute">eureka</span>:  <span class="hljs-attribute">client</span>:    <span class="hljs-attribute">service-url</span>:      <span class="hljs-attribute">defaultZone</span>: <span class="hljs-attribute">http</span>:<span class="hljs-comment">//localhost:8761/eureka</span>#熔断器turbine<span class="hljs-attribute">turbine</span>:  <span class="hljs-attribute">aggregator</span>:    <span class="hljs-attribute">cluster-config</span>: default  <span class="hljs-attribute">cluster-name-expression</span>: new String(<span class="hljs-string">&quot;default&quot;</span>)  <span class="hljs-attribute">app-config</span>: service-feign,service-feign-<span class="hljs-number">2</span></code></pre><p>代码重点：***</p><ul><li><p>新模块端口号为：8767</p></li><li><p>turbine.appConfig ：配置Eureka中的serviceId列表，表明监控哪些服务（这里指定为SERVICE-FEIGN, SERVICE-FEIGN-2，稍后说）</p></li><li><p>turbine.aggregator.clusterConfig ：指定聚合哪些集群，多个使用”,”分割，默认为default。可使用http://…/turbine.stream?cluster={clusterConfig之一}访问</p></li><li><p>turbine.clusterNameExpression ：</p></li><li><ul><li>clusterNameExpression指定集群名称，默认表达式appName；此时：turbine.aggregator.clusterConfig需要配置想要监控的应用名称；</li><li>当clusterNameExpression: default时，turbine.aggregator.clusterConfig可以不写，因为默认就是default；</li><li>当clusterNameExpression: metadata[‘cluster’]时，假设想要监控的应用配置了eureka.instance.metadata-map.cluster: ABC，则需要配置，同时turbine.aggregator.clusterConfig: ABC</li></ul></li></ul><p>完成这些步骤后，我们还需要调整下服务提供者，我们需要两个服务提供者同时运行。</p><p> 将8765（service-feign）的服务提供者改为8766，名称改为：service-feign-2，运行起来，别忘了在运行设置中设置允许多个实例运行。修改后的service-feign的yml是：</p><pre><code class="hljs yaml"><span class="hljs-attr">server:</span> <span class="hljs-comment"># 服务端口号</span> <span class="hljs-attr">port:</span> <span class="hljs-number">8766</span><span class="hljs-attr">spring:</span> <span class="hljs-attr">application:</span>  <span class="hljs-comment"># 服务名，即serviceId</span>  <span class="hljs-attr">name:</span> <span class="hljs-string">service-feign-2</span><span class="hljs-attr">eureka:</span> <span class="hljs-attr">client:</span>  <span class="hljs-attr">serviceUrl:</span>   <span class="hljs-comment"># 安全认证的服务注册中心地址</span>   <span class="hljs-attr">defaultZone:</span> <span class="hljs-string">http://localhost:8761/eureka</span><span class="hljs-comment"># 熔断器设置</span><span class="hljs-attr">feign:</span> <span class="hljs-attr">hystrix:</span>  <span class="hljs-attr">enabled:</span> <span class="hljs-literal">true</span><span class="hljs-comment"># 熔断器DashBoard: actuator在boot2.0调整后开关web端点的配置，*代表开启所有</span><span class="hljs-attr">management:</span> <span class="hljs-attr">endpoints:</span>  <span class="hljs-attr">web:</span>   <span class="hljs-attr">exposure:</span>    <span class="hljs-attr">include:</span> <span class="hljs-string">&quot;*&quot;</span></code></pre><p>访问：先<a href="http://localhost:8767/turbine.stream%EF%BC%8C%E5%9C%A8%E5%88%86%E5%88%AB%E8%AE%BF%E9%97%AEhttp://localhost:8765/hello/1232312%E3%80%81http://localhost:8766/hello/1232312">http://localhost:8767/turbine.stream，在分别访问http://localhost:8765/hello/1232312、http://localhost:8766/hello/1232312</a></p><p><img src="/images/blogimg/image-20200430155641667.png" alt="image-20200430155641667"></p><p>进行图形化监控查看，输入：<a href="http://localhost:8767/hystrix">http://localhost:8767/hystrix</a> ，返回酷酷的小熊界面，输入： <a href="http://localhost:8767/turbine.stream">http://localhost:8767/turbine.stream</a> ，然后点击 Monitor Stream ,可以看到出现了监控列表:</p><p><img src="/images/blogimg/image-20200430155816659.png" alt="image-20200430155816659"></p><p>上面只是一个监控。</p><h2 id="聚合监控列表："><a href="#聚合监控列表：" class="headerlink" title="聚合监控列表："></a>聚合监控列表：</h2><p>监控不同的服务熔断，首先得是不同的rpc调用，也就是消费者的熔断函数要是两个不同的，或者，消费者去调用的是两个不同的服务提供者！这样才会有多个监控表。</p><ul><li>新的消费目标（新的服务提供者）</li><li>或者是一个新的消费熔断器。</li></ul><p>修改server-feign子模块</p><p>1、ServiceHi接口的调用变为sayHiFromServiceHi2，value也指向另一个服务提供者data-server-2（新的消费目标（新的服务提供者））</p><pre><code class="hljs dart"><span class="hljs-meta">@FeignClient</span>(value = <span class="hljs-string">&quot;data-server-2&quot;</span>, fallback = ServiceHiHystrix.<span class="hljs-keyword">class</span>)public <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">ServiceHi</span> </span>&#123;  <span class="hljs-comment"><span class="markdown">/<span class="hljs-strong">**</span></span></span><span class="hljs-comment"><span class="markdown">   \<span class="hljs-emphasis">* <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span>通过Feign伪Http客户端调用service-hi提供的服务<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></span></span></span></span><span class="hljs-comment"><span class="markdown">  @GetMapping(&quot;/hi/&#123;name&#125;&quot;)</span></span><span class="hljs-comment"><span class="markdown">  String sayHiFromServiceHi2(@PathVariable(value = &quot;name&quot;) String name);</span></span><span class="hljs-comment"><span class="markdown">&#125;</span></span></code></pre><p>2、修改熔断器ServiceHiHystrix（新的消费熔断器）</p><pre><code class="hljs java"><span class="hljs-meta">@Service</span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ServiceHiHystrix</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">ServiceHi</span> </span>&#123;    <span class="hljs-meta">@Override</span>    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">sayHiFromServiceHi2</span><span class="hljs-params">(String name)</span> </span>&#123;        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;hello&quot;</span> + name +<span class="hljs-string">&quot;, this message send failed. By Hystrix.&quot;</span>;    &#125;&#125;</code></pre><p>3、当然，随之更改的是HelloController，需要改为<code>return serviceHi.sayHiFromServiceHi2</code></p><pre><code class="hljs less"><span class="hljs-variable">@RestController</span>public class HelloController &#123;    <span class="hljs-comment">/** 注入服务&quot;service-hi&quot;的Feign客户端ServiceHi */</span>    <span class="hljs-variable">@Autowired</span>    private ServiceHi serviceHi;    <span class="hljs-comment">/**</span><span class="hljs-comment">     * 调用Feign客户端提供的服务，自带负载均衡</span><span class="hljs-comment">     * @param name</span><span class="hljs-comment">     * @return</span><span class="hljs-comment">     */</span>    <span class="hljs-variable">@GetMapping</span>(<span class="hljs-string">&quot;/hello/&#123;name&#125;&quot;</span>)    public String sayHi(<span class="hljs-variable">@PathVariable</span> String name)&#123;        <span class="hljs-comment">//调用Feign客户端ScheduleServiceHi的接口</span>        <span class="hljs-selector-tag">return</span> <span class="hljs-selector-tag">serviceHi</span><span class="hljs-selector-class">.sayHiFromServiceHi2</span>(name);    &#125;&#125;</code></pre><p>这样改完后，重启这个8766的服务消费者。</p><p>最后得到：</p><p><img src="/images/blogimg/image-20200430161110248.png" alt="image-20200430161110248"></p><ul><li>上方两排：不同的熔断器</li><li>下方两排：不同的消费提供者</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;什么是Hystrix之熔断和降级&quot;&gt;&lt;a href=&quot;#什么是Hystrix之熔断和降级&quot; class=&quot;headerlink&quot; title=&quot;什么是Hystrix之熔断和降级&quot;&gt;&lt;/a&gt;什么是Hystrix之熔断和降级&lt;/h1&gt;&lt;p&gt;官方:在分布式环境中，不可避</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/04/30/SpringCloud/4.%E8%BF%9C%E7%A8%8B%E8%B0%83%E7%94%A8%E6%9C%8D%E5%8A%A1/"/>
+    <id>http://example.com/2020/04/30/SpringCloud/4.%E8%BF%9C%E7%A8%8B%E8%B0%83%E7%94%A8%E6%9C%8D%E5%8A%A1/</id>
+    <published>2020-04-29T23:29:39.717Z</published>
+    <updated>2020-09-07T09:58:03.040Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1、需要三个角色"><a href="#1、需要三个角色" class="headerlink" title="1、需要三个角色"></a>1、需要三个角色</h1><p>服务注册中心（eureka-server）、服务提供者（data-server）、服务消费者，其中服务注册中心就是我们上一篇的Eureka单机版启动既可，流程是首先启动注册中心，服务提供者生产服务并注册到服务中心中，消费者从服务中心中获取服务并执行。</p><h1 id="服务提供者：使用data-server"><a href="#服务提供者：使用data-server" class="headerlink" title="服务提供者：使用data-server"></a>服务提供者：使用data-server</h1><p>子模块不需要做更改。</p><p>可以使用**@EnableDiscoveryClient代替@EnableEurekaClient**</p><h2 id="两者区别："><a href="#两者区别：" class="headerlink" title="两者区别："></a>两者区别：</h2><p>注解@EnableEurekaClient上有@EnableDiscoveryClient注解，可以说基本就是@EnableEurekaClient上有@EnableDiscoveryClient功能，另外上面的注释中提到，其实@EnableEurekaClient注解就是一种方便使用eureka的注解而已，可以说使用其他的注册中心后，都可以使用@EnableDiscoveryClient注解，但是使用@EnableEurekaClient的情景，就是在服务采用eureka作为注册中心的时候，使用场景较为单一。</p><h1 id="服务消费者：新建service-feign子模块"><a href="#服务消费者：新建service-feign子模块" class="headerlink" title="服务消费者：新建service-feign子模块"></a>服务消费者：新建service-feign子模块</h1><p>创建子模块service-feign</p><p>pom.xml</p><pre><code class="hljs xml"><span class="hljs-meta">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">project</span> <span class="hljs-attr">xmlns</span>=<span class="hljs-string">&quot;http://maven.apache.org/POM/4.0.0&quot;</span> <span class="hljs-attr">xmlns:xsi</span>=<span class="hljs-string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span><span class="hljs-tag">         <span class="hljs-attr">xsi:schemaLocation</span>=<span class="hljs-string">&quot;http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd&quot;</span>&gt;</span>    <span class="hljs-tag">&lt;<span class="hljs-name">modelVersion</span>&gt;</span>4.0.0<span class="hljs-tag">&lt;/<span class="hljs-name">modelVersion</span>&gt;</span>    <span class="hljs-tag">&lt;<span class="hljs-name">parent</span>&gt;</span>        <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>com.test.springcloud<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>        <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>springcloud<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>        <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>1.0<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>        <span class="hljs-tag">&lt;<span class="hljs-name">relativePath</span>/&gt;</span> <span class="hljs-comment">&lt;!-- lookup parent from repository --&gt;</span>    <span class="hljs-tag">&lt;/<span class="hljs-name">parent</span>&gt;</span>    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>com.test.springcloud<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>service-feign<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>    <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>0.0.1-SNAPSHOT<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>    <span class="hljs-tag">&lt;<span class="hljs-name">name</span>&gt;</span>service-feign<span class="hljs-tag">&lt;/<span class="hljs-name">name</span>&gt;</span>    <span class="hljs-tag">&lt;<span class="hljs-name">description</span>&gt;</span>服务消费者<span class="hljs-tag">&lt;/<span class="hljs-name">description</span>&gt;</span>    <span class="hljs-tag">&lt;<span class="hljs-name">dependencies</span>&gt;</span>        <span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.springframework.cloud<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>spring-cloud-starter-openfeign<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>        <span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>    <span class="hljs-tag">&lt;/<span class="hljs-name">dependencies</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">project</span>&gt;</span></code></pre><h2 id="然后在主程序引入："><a href="#然后在主程序引入：" class="headerlink" title="然后在主程序引入："></a>然后在主程序引入：</h2><pre><code class="hljs less"><span class="hljs-variable">@EnableFeignClients</span><span class="hljs-variable">@EnableEurekaClient</span></code></pre><h2 id="之后，修改application-yml"><a href="#之后，修改application-yml" class="headerlink" title="之后，修改application.yml"></a>之后，修改application.yml</h2><pre><code class="hljs less"><span class="hljs-attribute">server</span>:  <span class="hljs-attribute">port</span>: <span class="hljs-number">8766</span><span class="hljs-attribute">spring</span>:  <span class="hljs-attribute">application</span>:    <span class="hljs-attribute">name</span>: service-feign-<span class="hljs-number">2</span><span class="hljs-attribute">eureka</span>:  <span class="hljs-attribute">client</span>:    <span class="hljs-attribute">service-url</span>:      <span class="hljs-attribute">defaultZone</span>: <span class="hljs-attribute">http</span>:<span class="hljs-comment">//localhost:8761/eureka</span></code></pre><h1 id="远程调用"><a href="#远程调用" class="headerlink" title="远程调用"></a>远程调用</h1><p>首先回顾一下data-server，它提供了一个上述eureka-hi服务提供了一个RESTful风格的接口：</p><p>TestController.java</p><pre><code class="hljs kotlin"><span class="hljs-meta">@RestController</span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TestController</span> </span>&#123;    <span class="hljs-comment">/*</span><span class="hljs-comment">    *  获取端口号</span><span class="hljs-comment">    * */</span>    <span class="hljs-meta">@Value(<span class="hljs-meta-string">&quot;<span class="hljs-subst">$&#123;server.port&#125;</span>&quot;</span>)</span>    <span class="hljs-keyword">private</span> String port;    <span class="hljs-comment">/*</span><span class="hljs-comment">    *  定义一个简单接口</span><span class="hljs-comment">    * */</span>    <span class="hljs-meta">@GetMapping(<span class="hljs-meta-string">&quot;/hi/&#123;name&#125;&quot;</span>)</span>    <span class="hljs-keyword">public</span> String home(<span class="hljs-meta">@PathVariable</span> String name)&#123;        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;hi &quot;</span> + name + <span class="hljs-string">&quot;,I am from port :&quot;</span> + port;    &#125;&#125;</code></pre><ul><li>行为：GET</li><li>资源：/hi/{name}</li></ul><p>在service-feign模块中编写调用data-server提供的接口的本地接口ServiceHi.java,如下：</p><pre><code class="hljs less"><span class="hljs-comment">/**</span><span class="hljs-comment"> * &lt;p&gt;一个Feign服务消费者接口&lt;/p&gt;</span><span class="hljs-comment"> **/</span><span class="hljs-variable">@FeignClient</span>(value = <span class="hljs-string">&quot;data-server&quot;</span>)public interface ServiceHi &#123;    <span class="hljs-comment">/**</span><span class="hljs-comment">     * &lt;p&gt;通过Feign伪Http客户端调用service-hi提供的服务&lt;/p&gt;</span><span class="hljs-comment">     **/</span>    <span class="hljs-variable">@GetMapping</span>(<span class="hljs-string">&quot;/hi/&#123;name&#125;&quot;</span>)    String sayHiFromServiceHi(<span class="hljs-variable">@PathVariable</span>(value = <span class="hljs-string">&quot;name&quot;</span>) String name);&#125;</code></pre><p>说明：</p><p>​    —通过@FeignClient标识当前接口是一个Feign客户端，<code>value = &quot;data-server&quot;</code>表示其针对的是名为data-server的服务。</p><p>​    — data-server则是我们data-server子模块的spring.application.name，这个name已经在eureka注册过。</p><p>​    — sayHiFromServiceHi方法为伪成Http客户端方法，与data-server的[GET] /hi/{name} 服务接口相对应。</p><p>之后，新建HelloController.java</p><pre><code class="hljs css"><span class="hljs-selector-tag">package</span> <span class="hljs-selector-tag">com</span><span class="hljs-selector-class">.test</span><span class="hljs-selector-class">.springcloud</span><span class="hljs-selector-class">.controller</span>;<span class="hljs-selector-tag">import</span> <span class="hljs-selector-tag">com</span><span class="hljs-selector-class">.test</span><span class="hljs-selector-class">.springcloud</span><span class="hljs-selector-class">.service</span><span class="hljs-selector-class">.ServiceHi</span>;<span class="hljs-selector-tag">import</span> <span class="hljs-selector-tag">org</span><span class="hljs-selector-class">.springframework</span><span class="hljs-selector-class">.beans</span><span class="hljs-selector-class">.factory</span><span class="hljs-selector-class">.annotation</span><span class="hljs-selector-class">.Autowired</span>;<span class="hljs-selector-tag">import</span> <span class="hljs-selector-tag">org</span><span class="hljs-selector-class">.springframework</span><span class="hljs-selector-class">.web</span><span class="hljs-selector-class">.bind</span><span class="hljs-selector-class">.annotation</span><span class="hljs-selector-class">.GetMapping</span>;<span class="hljs-selector-tag">import</span> <span class="hljs-selector-tag">org</span><span class="hljs-selector-class">.springframework</span><span class="hljs-selector-class">.web</span><span class="hljs-selector-class">.bind</span><span class="hljs-selector-class">.annotation</span><span class="hljs-selector-class">.PathVariable</span>;<span class="hljs-selector-tag">import</span> <span class="hljs-selector-tag">org</span><span class="hljs-selector-class">.springframework</span><span class="hljs-selector-class">.web</span><span class="hljs-selector-class">.bind</span><span class="hljs-selector-class">.annotation</span><span class="hljs-selector-class">.RestController</span>;<span class="hljs-selector-tag">import</span> <span class="hljs-selector-tag">javax</span><span class="hljs-selector-class">.annotation</span><span class="hljs-selector-class">.Resource</span>;<span class="hljs-comment">/*</span><span class="hljs-comment">* 服务消费控制层</span><span class="hljs-comment">* */</span><span class="hljs-keyword">@RestController</span>public class HelloController &#123;    <span class="hljs-keyword">@Resource</span>    private ServiceHi serviceHi;    <span class="hljs-keyword">@GetMapping</span>(&quot;/hello/&#123;<span class="hljs-selector-tag">name</span>&#125;&quot;)    <span class="hljs-selector-tag">public</span> <span class="hljs-selector-tag">String</span> <span class="hljs-selector-tag">sayHi</span>(<span class="hljs-keyword">@PathVariable</span> String name)&#123;        <span class="hljs-selector-tag">return</span> <span class="hljs-selector-tag">serviceHi</span><span class="hljs-selector-class">.sayHiFromServiceHi</span>(<span class="hljs-selector-tag">name</span>);    &#125;&#125;</code></pre><p>重点：</p><p>​    —— serviceHi.sayHiFromServiceHi(name)即通过Feign调用伪Http客户端的服务接口。</p><p>已经全部配置完毕，依次启动eureka-server、data-server和service-feign。可以看到俩个服务都已经在eureka注册。</p><p>访问 <a href="http://localhost:8765/hello/test">http://localhost:8765/hello/test</a> ，即service-feign提供的服务接口。这个服务接口会通过Feign去调用服务data-server提供的服务接口。</p><p>在该调用中，Feign并不需要指定端口号，它并不知道这个方法所在的服务提供者现在在哪个端口运行，我们只需要向eureka寻求服务。</p><p>三个模块的拓扑图如下：</p><p><img src="/images/blogimg/640-8210992.png" alt="在这里插入图片描述"></p><h1 id="测试Feign负载均衡"><a href="#测试Feign负载均衡" class="headerlink" title="测试Feign负载均衡"></a>测试Feign负载均衡</h1><p>Feign会对服务调用进行负载平衡，需要同时打开两个data-server服务，由于在同一台电脑上，就得把端口号从8763改为8764，然后同时开启8763和8764两个服务。</p><p>要同时运行两个端口不同的相同服务，需要在run configuration里面把allow parallle打开：</p><p>可以看到有两个data-server进行了注册。</p><p>访问<a href="http://localhost:8765/hello/test%E3%80%82">http://localhost:8765/hello/test。</a></p><p>连续访问两次，发现两次会分别取调用data-server的两个服务节点。</p><p>最后是负载平衡的拓扑图：</p><p><img src="/images/blogimg/640-8211700.jpeg" alt="在这里插入图片描述"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;1、需要三个角色&quot;&gt;&lt;a href=&quot;#1、需要三个角色&quot; class=&quot;headerlink&quot; title=&quot;1、需要三个角色&quot;&gt;&lt;/a&gt;1、需要三个角色&lt;/h1&gt;&lt;p&gt;服务注册中心（eureka-server）、服务提供者（data-server）、服务消费者</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/Nginx/nginx%E9%85%8D%E7%BD%AE/"/>
+    <id>http://example.com/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/Nginx/nginx%E9%85%8D%E7%BD%AE/</id>
+    <published>2020-04-27T00:39:34.113Z</published>
+    <updated>2020-04-29T23:19:21.871Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1、简介"><a href="#1、简介" class="headerlink" title="1、简介"></a>1、简介</h1><p>Nginx是一款轻量级的网页服务器、反向代理服务器。相较于Apache、lighttpd具有占有内存少，稳定性高等优势。<strong>它最常的用途是提供反向代理服务。</strong></p><h1 id="2、安装"><a href="#2、安装" class="headerlink" title="2、安装"></a>2、安装</h1><h2 id="a、准备工作"><a href="#a、准备工作" class="headerlink" title="a、准备工作"></a>a、准备工作</h2><p>Nginx的安装依赖于以下三个包，意思就是在安装Nginx之前首先必须安装一下的三个包，注意安装顺序如下：</p><p>　　1 SSL功能需要openssl库，直接通过yum安装: #yum install openssl</p><p>　　2 gzip模块需要zlib库，直接通过yum安装: #yum install zlib</p><p>　　3 rewrite模块需要pcre库，直接通过yum安装: #yum install pcre</p><h2 id="b、安装Nginx依赖项和Nginx"><a href="#b、安装Nginx依赖项和Nginx" class="headerlink" title="b、安装Nginx依赖项和Nginx"></a>b、安装Nginx依赖项和Nginx</h2><h3 id="1-使用yum安装nginx需要包括Nginx的库，安装Nginx的库"><a href="#1-使用yum安装nginx需要包括Nginx的库，安装Nginx的库" class="headerlink" title="　　1 使用yum安装nginx需要包括Nginx的库，安装Nginx的库"></a>　　1 使用yum安装nginx需要包括Nginx的库，安装Nginx的库</h3><p>　　　　#rpm -Uvh <a href="http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm">http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm</a></p><h3 id="2-使用下面命令安装nginx"><a href="#2-使用下面命令安装nginx" class="headerlink" title="　　2 使用下面命令安装nginx"></a>　　2 使用下面命令安装nginx</h3><p>　　　　#yum install nginx</p><h3 id="3-启动Nginx"><a href="#3-启动Nginx" class="headerlink" title="　　3 启动Nginx"></a>　　3 启动Nginx</h3><p>　　　　#service nginx start</p><h1 id="3、直接浏览器访问localhost就会出现Nginx的欢迎界面表示安装成功，否则就是失败了"><a href="#3、直接浏览器访问localhost就会出现Nginx的欢迎界面表示安装成功，否则就是失败了" class="headerlink" title="3、直接浏览器访问localhost就会出现Nginx的欢迎界面表示安装成功，否则就是失败了"></a>3、直接浏览器访问localhost就会出现Nginx的欢迎界面表示安装成功，否则就是失败了</h1><p>　默认80端口加入防火墙访问白名单中：firewall-cmd –permanent –zone=public –add-port=80/tcp</p><p>　　使用firewall-cmd –reload命令使其生效</p><h1 id="4、配置Nginx"><a href="#4、配置Nginx" class="headerlink" title="4、配置Nginx"></a>4、配置Nginx</h1><pre><code class="hljs stata"><span class="hljs-keyword">cd</span> /usr/<span class="hljs-keyword">local</span>/nginx/<span class="hljs-keyword">conf</span><span class="hljs-keyword">ls</span>vi nginx.<span class="hljs-keyword">conf</span></code></pre><p>ls</p><p>vi nginx.con</p><p><img src="/images/blogimg/image-20200427091420834.png" alt="image-20200427091420834"></p><p>详细介绍：<a href="https://yq.aliyun.com/articles/700682">https://yq.aliyun.com/articles/700682</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;1、简介&quot;&gt;&lt;a href=&quot;#1、简介&quot; class=&quot;headerlink&quot; title=&quot;1、简介&quot;&gt;&lt;/a&gt;1、简介&lt;/h1&gt;&lt;p&gt;Nginx是一款轻量级的网页服务器、反向代理服务器。相较于Apache、lighttpd具有占有内存少，稳定性高等优势。&lt;s</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/MySQL/1.%E5%88%9B%E5%BB%BA%E5%AF%86%E7%A0%81%E5%B9%B6%E7%99%BB%E9%99%86/"/>
+    <id>http://example.com/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/MySQL/1.%E5%88%9B%E5%BB%BA%E5%AF%86%E7%A0%81%E5%B9%B6%E7%99%BB%E9%99%86/</id>
+    <published>2020-04-27T00:12:07.817Z</published>
+    <updated>2020-04-29T23:19:21.874Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、无密码</p><p>通过Yum安装的mysql的管理员账户是没有密码的，这里通过命令设置其密码为 <strong>admin</strong> </p><p><code>mysqladmin -u root password admin</code></p><p>2、登陆验证</p><p><code>mysql -uroot -padmin</code></p><p><code>show databases;</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1、无密码&lt;/p&gt;
+&lt;p&gt;通过Yum安装的mysql的管理员账户是没有密码的，这里通过命令设置其密码为 &lt;strong&gt;admin&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mysqladmin -u root password admin&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/JDK/1%E3%80%81%E5%AE%89%E8%A3%85JDK/"/>
+    <id>http://example.com/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/JDK/1%E3%80%81%E5%AE%89%E8%A3%85JDK/</id>
+    <published>2020-04-27T00:05:40.963Z</published>
+    <updated>2020-04-29T23:19:21.875Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、安装JDK</p><p><code>yum -y install java-1.8.0-openjdk.x86_64</code></p><p>2、运行</p><p><code>java -version</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1、安装JDK&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yum -y install java-1.8.0-openjdk.x86_64&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;2、运行&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java -version&lt;/code&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/MySQL/0.%E5%AE%89%E8%A3%85mysql/"/>
+    <id>http://example.com/2020/04/27/%E6%9C%8D%E5%8A%A1%E5%99%A8/MySQL/0.%E5%AE%89%E8%A3%85mysql/</id>
+    <published>2020-04-27T00:05:20.721Z</published>
+    <updated>2020-04-29T23:19:21.875Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、下载</p><pre><code class="hljs apache"><span class="hljs-attribute">cd</span> /tmp<span class="hljs-attribute">wget</span> http://repo.mysql.com/mysql-community-release-el<span class="hljs-number">7</span>-<span class="hljs-number">5</span>.noarch.rpm  <span class="hljs-attribute">rpm</span> -ivh mysql-community-release-el<span class="hljs-number">7</span>-<span class="hljs-number">5</span>.noarch.rpm</code></pre><p> 2、通过yum进行安装</p><p><code>yum install mysql mysql-server mysql-devel -y</code></p><p>3、启动</p><p><code>systemctl start mysql.service</code></p><p>4、验证</p><p>安装后会自动启动，启动后会占用3306端口。 使用如下命令查看3306端口是否启动，如果启动了则表示mysql处于运行状态。</p><p><code>netstat -anp|grep 3306</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1、下载&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs apache&quot;&gt;&lt;span class=&quot;hljs-attribute&quot;&gt;cd&lt;/span&gt; /tmp
+&lt;span class=&quot;hljs-attribute&quot;&gt;wget&lt;/span&gt; http://repo.</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/6.%E9%87%8D%E5%90%AFvsftpd%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/6.%E9%87%8D%E5%90%AFvsftpd%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
+    <published>2020-04-25T04:49:24.237Z</published>
+    <updated>2020-04-25T05:13:02.896Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、重启使用vsftpd服务器</p><p>通常重启使用的命令是：</p><p><code>systemctl restart vsftpd.service</code></p><p>最后执行查看状态，以查看重启成功了：</p><p><code>systemctl status vsftpd.service</code></p><p>2、开放端口</p><p>a、端口概念</p><p>要访问Linux的端口，必须开通才行。</p><p>再买ECS服务器是，只开通了22和3389端口。22就是SecureCRT链接Linux服务器用的端口号。3389 是阿里云控制台链接用的端口，这里没有用到。</p><p>只有这两个端口号是不够用的，为了能够链接vsftpd服务器还需要开放21端口和 30000-30010端口</p><p>b、安全组</p><p>既然用的是阿里云，那么我们就借助阿里云的安全组操作来实现端口的开放效果。<br>登陆阿里云后，按照如下顺序选择：云服务器ECS-&gt;安全组-&gt;配置规则</p><p><img src="/images/blogimg/6977.png" alt="img"></p><p>c、当前安全组规则一览</p><p>目前安全组规则是3个，分别是22，3389和ICMP协议。</p><p>然后点右上角的 <strong>添加安全组规则</strong></p><p><img src="/images/blogimg/6978.png" alt="img"></p><p>d、添加21端口和30000-30010端口</p><p>如图所示只需要修改两个：<br>端口范围： 21/21 表示从21开始，到21结束<br>授权对象： 0.0.0.0/0 表示所有的ip地址都可以访问该端口，重复上述步骤</p><p><img src="/images/blogimg/6979.png" alt="img"></p><p>e、添加后安全组规则一览</p><p>如图所示，增加了两个新的规则</p><p><img src="/images/blogimg/6981.png" alt="img"></p><p>3、Transmit连接ftp</p><p><img src="/images/blogimg/image-20200425130914585.png" alt="image-20200425130914585"></p><p>上传下载拖拉移动。</p><p>上传文件路径：<code>/home/ftp/ftptest</code>也可以在该路径下自己创建新的文件夹。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1、重启使用vsftpd服务器&lt;/p&gt;
+&lt;p&gt;通常重启使用的命令是：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;systemctl restart vsftpd.service&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;最后执行查看状态，以查看重启成功了：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;systemctl </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/5.%E7%94%A8%E6%88%B7%E9%89%B4%E6%9D%83/"/>
+    <id>http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/5.%E7%94%A8%E6%88%B7%E9%89%B4%E6%9D%83/</id>
+    <published>2020-04-25T04:43:47.593Z</published>
+    <updated>2020-04-25T05:13:02.898Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、关于鉴权</p><p>因为用户 ftptest 是 nologin的，所以存在鉴权的问题。 如果鉴权问题不解决，就是永不停息的 530错误</p><p>2、鉴权方式</p><p>a、pam.d/vsftpd文件</p><p><code>vi /etc/pam.d/vsftpd</code></p><p>注释掉/etc/pam.d/vsftpd文件里这一行：<br>#auth required pam_shells.so<br>这样不去鉴权，从而允许 ftptest 这种 nologin用户登录 ftp 服务器.</p><p>b、shells文件</p><p><code>vi /etc/shells</code></p><p>在/etc/shells文件里面增加一行：</p><p><code>/sbin/nologin</code></p><p>这样允许不能登录系统的用户通过鉴权</p><p><img src="/images/blogimg/image-20200425124837000.png" alt="image-20200425124837000"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1、关于鉴权&lt;/p&gt;
+&lt;p&gt;因为用户 ftptest 是 nologin的，所以存在鉴权的问题。 如果鉴权问题不解决，就是永不停息的 530错误&lt;/p&gt;
+&lt;p&gt;2、鉴权方式&lt;/p&gt;
+&lt;p&gt;a、pam.d/vsftpd文件&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;vi /etc/pam.d</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>4.配置端口</title>
+    <link href="http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/4.%E9%85%8D%E7%BD%AE%E7%AB%AF%E5%8F%A3/"/>
+    <id>http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/4.%E9%85%8D%E7%BD%AE%E7%AB%AF%E5%8F%A3/</id>
+    <published>2020-04-25T04:35:45.095Z</published>
+    <updated>2020-09-07T14:24:12.359Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、两种端口</p><p>vsftpd有两种端口，一个是21端口，用来监听客户端连接请求的。 这个一般说来是固定的，就一直使用21端口。<br>另一种是，一旦获取到请求之后，再专门用户服务端和客户端传输数据的端口。</p><p>2、配置端口</p><p>打开配置文件：</p><p> <code>vi /etc/vsftpd/vsftpd.conf</code><br>在最后添加：</p><pre><code class="hljs ini"><span class="hljs-attr">pasv_enable</span>=<span class="hljs-literal">YES</span><span class="hljs-attr">pasv_min_port</span>=<span class="hljs-number">30000</span><span class="hljs-attr">pasv_max_port</span>=<span class="hljs-number">30010</span></code></pre><p> 这表示使用被动模式，用于传输数据的端口分配从30000-30010之间。<br>在后续的Linux开放端口教程中也会做相应的配合工作。</p><p><img src="/images/blogimg/image-20200425124236426.png" alt="image-20200425124236426"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1、两种端口&lt;/p&gt;
+&lt;p&gt;vsftpd有两种端口，一个是21端口，用来监听客户端连接请求的。 这个一般说来是固定的，就一直使用21端口。&lt;br&gt;另一种是，一旦获取到请求之后，再专门用户服务端和客户端传输数据的端口。&lt;/p&gt;
+&lt;p&gt;2、配置端口&lt;/p&gt;
+&lt;p&gt;打开配置文件：</summary>
+      
+    
+    
+    
+    <category term="FTP" scheme="http://example.com/categories/FTP/"/>
+    
+    
+    <category term="-服务器搭建 -FTP" scheme="http://example.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA-FTP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3.配置用户</title>
+    <link href="http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/3.%E9%85%8D%E7%BD%AE%E7%94%A8%E6%88%B7/"/>
+    <id>http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/3.%E9%85%8D%E7%BD%AE%E7%94%A8%E6%88%B7/</id>
+    <published>2020-04-25T01:16:24.740Z</published>
+    <updated>2020-09-07T10:01:21.644Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、配置用户</p><p>上面创建用户，接下来给vsftpd服务器中配置该用户</p><p>2、去掉匿名登录</p><p>默认情况下vsftpd服务器是允许匿名登录的，不安全。要关掉</p><p>首先通过vi命令打开ftp服务器配置文件：</p><p><code>vi /etc/vsftpd/vsftpd.conf</code></p><p>然后把本来的</p><p><code>anonymous_enable=YES</code><br>修改为</p><p><code>anonymous_enable=NO</code>修改完成之后，保存退出</p><p><img src="/blogimg/image-20200425092359061.png" alt="image-20200425092359061"></p><p>3、限制用户访问</p><p>为了不让刚才创建的用户，登录后随意切换到任意目录去，做限制，只允许访问<code>/home/ftp/ftptest</code>目录以及子目录。</p><p>配置方法：</p><p>首先通过vi命令打开ftp服务器配置文件：</p><p><code>vi /etc/vsftpd/vsftpd.conf</code></p><p>找到</p><pre><code class="hljs vala"><span class="hljs-meta">#chroot_list_enable=YES</span><span class="hljs-meta"># (default follows)</span><span class="hljs-meta">#chroot_list_file=/etc/vsftpd.chroot_list</span></code></pre><p>修改为：</p><pre><code class="hljs ini"><span class="hljs-attr">chroot_list_enable</span>=<span class="hljs-literal">YES</span><span class="hljs-comment"># (default follows)</span><span class="hljs-attr">chroot_list_file</span>=/etc/vsftpd/chroot_list</code></pre><p>chroot_list_enable=YES： 表示对用户访问进行限制<br>chroot_list_file=/etc/vsftpd/chroot_list 表示对chroot_list里面指定的用户进行限制 下一个步骤用户清单就会对chroot_list 这个文件进行编辑</p><p><img src="/blogimg/image-20200425093532375.png" alt="image-20200425093532375"></p><p>修改完成之后，保存退出。</p><p>4、用户清单</p><p>在chroot_list中添加ftptest用户</p><p>首先通过vi命令打开chroot_list文件(此文件本来是空的)：</p><p> <code>vi /etc/vsftpd/chroot_list</code></p><p>然后增加一行: ftptest</p><p><img src="/blogimg/image-20200425093833565.png" alt="/image-20200425093833565"></p><p>修改完成之后，保存退出。</p><p>5、允许写权限</p><p>vsftpd服务器是这样的，一旦某个用户被限制访问了，那么默认情况下，该用户的写权限也被剥夺了。 这就导致ftp客户端连接上服务器之后无法上传文件。<br>这个时候，就需要打开此用户的写权限，请按照如下办法操作：<br>首先通过vi命令打开ftp服务器配置文件：</p><p> <code>vi /etc/vsftpd/vsftpd.conf</code><br>在最后面新加一行：</p><p> <code>allow_writeable_chroot=YES</code></p><p><img src="/blogimg/image-20200425095349642.png" alt="image-20200425095349642"></p><p> 修改完成之后，保存退出。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1、配置用户&lt;/p&gt;
+&lt;p&gt;上面创建用户，接下来给vsftpd服务器中配置该用户&lt;/p&gt;
+&lt;p&gt;2、去掉匿名登录&lt;/p&gt;
+&lt;p&gt;默认情况下vsftpd服务器是允许匿名登录的，不安全。要关掉&lt;/p&gt;
+&lt;p&gt;首先通过vi命令打开ftp服务器配置文件：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;</summary>
+      
+    
+    
+    
+    <category term="FTP" scheme="http://example.com/categories/FTP/"/>
+    
+    
+    <category term="-服务器搭建 -FTP" scheme="http://example.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA-FTP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/2.ftp%E7%94%A8%E6%88%B7/"/>
+    <id>http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/2.ftp%E7%94%A8%E6%88%B7/</id>
+    <published>2020-04-25T00:53:23.259Z</published>
+    <updated>2020-04-25T04:40:36.080Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、用户概念</p><p>要连接上vsftpd服务器需要为Linux创建专门的用户。</p><p>2、用户目录</p><p>在Linux中，不同用户是有不同目录访问权限的，所以首先创建一个目录，作为这个ftp用户所拥有的目录。</p><p>Mkdir -p /home/ftp/ftptest</p><p>3、创建用户</p><p>执行如下命令，创建用户ftptest,并且指定其目录为用户目录创建的/home/ftp/ftptest</p><p>useradd -d /home/ftp/ftptest -g ftp -s /sbin/nologin ftptest</p><p>-g ftp表示该用户属于ftp分组（ftp分组是内置的，本来就存在，不需要自己创建）</p><p>-s /sbin/nologin表示这个用户不能用来登录secureCRT这样的客户端。这种不能登陆的用户又叫做虚拟用户，创建回给警告，别管</p><p>4、设置目录权限</p><p>chown -R ftptest /home/ftp/ftptest</p><p>chmod -R 775 /home/ftp/ftptest</p><p>把目录/home/wwwroot/ftptest的拥有者设置为ftptest<br>使ftptest用户拥有这个目录的读写权限</p><p>5、设置密码</p><p>为ftptest用户设置密码：passwd ftptest</p><p>出来提示输入密码。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1、用户概念&lt;/p&gt;
+&lt;p&gt;要连接上vsftpd服务器需要为Linux创建专门的用户。&lt;/p&gt;
+&lt;p&gt;2、用户目录&lt;/p&gt;
+&lt;p&gt;在Linux中，不同用户是有不同目录访问权限的，所以首先创建一个目录，作为这个ftp用户所拥有的目录。&lt;/p&gt;
+&lt;p&gt;Mkdir -p /hom</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/1.%E5%AE%89%E8%A3%85vsftpd/"/>
+    <id>http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/1.%E5%AE%89%E8%A3%85vsftpd/</id>
+    <published>2020-04-25T00:43:43.294Z</published>
+    <updated>2020-04-25T04:39:33.930Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、介绍vsftpd</p><p>vsftpd 全称是：very secure FTP daemon 非常安全的ftp后台程序，及ftp 服务端</p><p>2、安装命令</p><p>yum install vsftpd -y</p><p>执行之后，最后看到Complete! 就表示安装成功了</p><p>3、查看服务启动状态</p><p>启动：systemctl start vsftpd.service</p><p>查看启动状态：systemctl status vsftpd.service</p><p><img src="/images/blogimg/image-20200425085048037.png" alt="image-20200425085048037"></p><p>关闭服务：systemctl stop vsftpd.service</p><p>检查端口：ftp服务启动的是21端口，使用如下命令应该观察到21端口正在处于监听状态，这也从侧面反应了ftp服务器启动成功了</p><p> netstat -anp|grep 21</p><p><img src="/images/blogimg/image-20200425085250752.png" alt="image-20200425085250752"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1、介绍vsftpd&lt;/p&gt;
+&lt;p&gt;vsftpd 全称是：very secure FTP daemon 非常安全的ftp后台程序，及ftp 服务端&lt;/p&gt;
+&lt;p&gt;2、安装命令&lt;/p&gt;
+&lt;p&gt;yum install vsftpd -y&lt;/p&gt;
+&lt;p&gt;执行之后，最后看到Comp</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
