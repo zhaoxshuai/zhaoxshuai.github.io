@@ -522,39 +522,75 @@
   
   
   <entry>
-    <title></title>
+    <title>远程连接服务器</title>
     <link href="/2020/04/24/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     <url>/2020/04/24/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
     
     <content type="html"><![CDATA[<p>Mac</p><p>软件：Termius、Transmit</p><p>方法：输入ssh root@localhost-&gt;输入密码</p>]]></content>
     
     
+    <categories>
+      
+      <category>服务器</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>服务器搭建 - 准备工作</tag>
+      
+    </tags>
     
   </entry>
   
   
   
   <entry>
-    <title></title>
+    <title>查看购买的服务器</title>
     <link href="/2020/04/24/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E6%9F%A5%E7%9C%8B%E8%B4%AD%E4%B9%B0%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     <url>/2020/04/24/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E6%9F%A5%E7%9C%8B%E8%B4%AD%E4%B9%B0%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
     
     <content type="html"><![CDATA[<p>1、查看实例</p><p>点击云服务器ECS-&gt;实例 就可以看到已经购买的实例。 </p><p>2、查看ip</p><p>过一会儿就启动好了，就可以看到公网IP地址了。 后续访问这个服务器就是通过这个地址进行访问的。公有ip</p>]]></content>
     
     
+    <categories>
+      
+      <category>服务器</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>服务器搭建 - 准备工作</tag>
+      
+    </tags>
     
   </entry>
   
   
   
   <entry>
-    <title></title>
+    <title>搭建服务器</title>
     <link href="/2020/04/24/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     <url>/2020/04/24/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
     
     <content type="html"><![CDATA[<p>1、阿里云购买</p><p><a href="http://aliyun.com/">http://aliyun.com/</a></p><p>2、购买ECS服务器-创建实例</p><p> ECS就是云服务器，进入控制台后，点击左边的云服务器ECS-&gt;实例-&gt;创建实例 进入购买新实例界面<br><strong>注：</strong> 默认是没有实例的，需要自己创建(购买)</p><p>3、购买ECS服务器-网络</p><p>使用默认设置，其中“请选择安全组” 必须手动指定为 “默认安全组” 。<br>所谓的安全组，就是指服务器开放什么端口让别人访问，默认只开放22和3389端口。<br>其他端口的开放，将在后续教程里在需要的时候讲解，这里采用默认即可。</p><p><strong>注：</strong> 公网IP地址采用：“分配” 这里有其他方案选择，不过不在本教程讨论范围之内。</p><p>一步一步</p><p>4、购买ECS服务器-镜像</p><p>镜像选择公共镜像，其中操作系统选择CentOS, 版本选择7.4 64位。</p><p>5、购买服务器-安全设置</p><p>安全设置，输入密码即可。-设置密码</p>]]></content>
     
     
+    <categories>
+      
+      <category>服务器</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>服务器搭建 - 准备工作</tag>
+      
+    </tags>
     
   </entry>
   
