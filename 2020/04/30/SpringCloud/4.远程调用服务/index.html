@@ -232,7 +232,7 @@
             
               <p class="note note-info">
                 
-                  本文最后更新于：4 分钟前
+                  本文最后更新于：2 分钟前
                 
               </p>
             
@@ -359,14 +359,14 @@ public class HelloController &#123;
 <p>访问 <a target="_blank" rel="noopener" href="http://localhost:8765/hello/test">http://localhost:8765/hello/test</a> ，即service-feign提供的服务接口。这个服务接口会通过Feign去调用服务data-server提供的服务接口。</p>
 <p>在该调用中，Feign并不需要指定端口号，它并不知道这个方法所在的服务提供者现在在哪个端口运行，我们只需要向eureka寻求服务。</p>
 <p>三个模块的拓扑图如下：</p>
-<p><img src="/images/blogimg/640-8210992.png" srcset="/img/loading.gif" alt="在这里插入图片描述"></p>
+<p><img src="/blogimg/640-8210992.png" srcset="/img/loading.gif" alt="在这里插入图片描述"></p>
 <h1 id="测试Feign负载均衡"><a href="#测试Feign负载均衡" class="headerlink" title="测试Feign负载均衡"></a>测试Feign负载均衡</h1><p>Feign会对服务调用进行负载平衡，需要同时打开两个data-server服务，由于在同一台电脑上，就得把端口号从8763改为8764，然后同时开启8763和8764两个服务。</p>
 <p>要同时运行两个端口不同的相同服务，需要在run configuration里面把allow parallle打开：</p>
 <p>可以看到有两个data-server进行了注册。</p>
 <p>访问<a target="_blank" rel="noopener" href="http://localhost:8765/hello/test%E3%80%82">http://localhost:8765/hello/test。</a></p>
 <p>连续访问两次，发现两次会分别取调用data-server的两个服务节点。</p>
 <p>最后是负载平衡的拓扑图：</p>
-<p><img src="/images/blogimg/640-8211700.jpeg" srcset="/img/loading.gif" alt="在这里插入图片描述"></p>
+<p><img src="/blogimg/640-8211700.jpeg" srcset="/img/loading.gif" alt="在这里插入图片描述"></p>
 
             </div>
             <hr>

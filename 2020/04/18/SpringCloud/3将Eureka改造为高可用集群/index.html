@@ -232,13 +232,13 @@
             
               <p class="note note-info">
                 
-                  本文最后更新于：5 分钟前
+                  本文最后更新于：2 分钟前
                 
               </p>
             
             <div class="markdown-body" id="post-body">
               <h2 id="Eureka-Server的致命缺陷"><a href="#Eureka-Server的致命缺陷" class="headerlink" title="Eureka Server的致命缺陷"></a>Eureka Server的致命缺陷</h2><p>简单的服务注册中心Eureka Server与服务提供者Eureka Client的网络拓扑图</p>
-<p><img src="/images/blogimg/640.png" srcset="/img/loading.gif" alt="在这里插入图片描述"></p>
+<p><img src="/blogimg/640.png" srcset="/img/loading.gif" alt="在这里插入图片描述"></p>
 <p>这种配置方式有以下致命缺陷：</p>
 <p>​    · 当成千上万的服务提供者都向它单节点的服务注册中心进行注册时，它的负载是非常高的。</p>
 <p>​    · 一旦这个单节点的服务注册中心挂掉，则所有服务提供者的注册信息都将变得不可用</p>
@@ -347,12 +347,12 @@
 
 <h2 id="启动三节点Eureka"><a href="#启动三节点Eureka" class="headerlink" title="启动三节点Eureka"></a>启动三节点Eureka</h2><p>因为是集群，所以要启动三个端口不同的实例，端口已经是yml文件中进行了设置。</p>
 <p>在Edit configuration里自行设置三个运行配置，分别对应三个配置文件，注意图中箭头的设置。</p>
-<p><img src="/images/blogimg/image-20200427134609618.png" srcset="/img/loading.gif" alt="image-20200427134609618"></p>
-<p><img src="/images/blogimg/640-7966406.jpeg" srcset="/img/loading.gif" alt="在这里插入图片描述"></p>
+<p><img src="/blogimg/image-20200427134609618.png" srcset="/img/loading.gif" alt="image-20200427134609618"></p>
+<p><img src="/blogimg/640-7966406.jpeg" srcset="/img/loading.gif" alt="在这里插入图片描述"></p>
 <p>你也可以使用复制配置按钮：</p>
-<p><img src="/images/blogimg/640-20200427135034775.jpeg" srcset="/img/loading.gif" alt="在这里插入图片描述"></p>
+<p><img src="/blogimg/640-20200427135034775.jpeg" srcset="/img/loading.gif" alt="在这里插入图片描述"></p>
 <p>如果你发现Edit configuration里没有eureka-ha，请手动添加：</p>
-<p><img src="/images/blogimg/640-20200427135108999.jpeg" srcset="/img/loading.gif" alt="在这里插入图片描述"></p>
+<p><img src="/blogimg/640-20200427135108999.jpeg" srcset="/img/loading.gif" alt="在这里插入图片描述"></p>
 <p>最后，分别运行三个eureka-ha。</p>
 <p>打开网页，输入 <a target="_blank" rel="noopener" href="http://localhost:8771/">http://localhost:8771/</a> ， <a target="_blank" rel="noopener" href="http://localhost:8772/">http://localhost:8772/</a> ，<a target="_blank" rel="noopener" href="http://localhost:8773/">http://localhost:8773/</a></p>
 
