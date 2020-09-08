@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-09-07T14:19:32.186Z</updated>
+  <updated>2020-09-08T01:50:07.223Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2020/09/07/hello-world/"/>
     <id>http://example.com/2020/09/07/hello-world/</id>
     <published>2020-09-07T08:59:54.129Z</published>
-    <updated>2020-09-07T14:19:32.186Z</updated>
+    <updated>2020-09-08T01:50:07.223Z</updated>
     
     <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">Hey, password is required here.</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="0c7f31db9dc76f0900f8fbb96b3d82764c9773d0dbaafdde85d9ceb95089a000">e616ba5d347f3df29b34e76fe134e369090a5e9d773c3389a698dcf649e99540a1c9cebb0497feb9c8ae0ffe472f9f6f4e111f78f8090c5ed7cae8d37195eaba348072a619bf9d34743588d3450c6e43a3ac138bcc4faa73f61869315947ccc873f6e37128f778b3fc23597cd45db9cc91c2d183564d32f02a343b17e381532add66634f149dbd2d9534243cfbe885270866b9eb88e91eec8387160a0f027f292cbd2ff6bdf0c8783f36231e2e9475a73f38db62d6456ea55c3e691f31cc3a956fbf0234f97695622fa5af351fb08d1f8e89bc1fc50da01dae79cebc34135be76dc03cec5683fc5a20064622dc520f489076ce51c7362d30b73e03cd0925a1a9cd73dd8fcbeaea62add957a238bffa1c7fd37efaae964d5b8e8513abd8cf8c04904d5ef2dcaad6f003cccbc5f6b0374a1c22d9b9663db60c5d8879cb6e33aee44b53619dbe1094dcad838b95de41c0bdb5a08b4d03656987d4ccecd0996bedcf35caa8ae3971dbafd633176f1ca6e3d0ade6af8fa8ed6c2d4c8358a68f3ff95d506ec0d469f0d012807631c16f1a72e9c7d02ea9f3235e1ba4109ba77479e3d7ae6dc8c4f8c4d52f437dbfac8f325efd88e4cc0c06f7900c320f9a0026e74367a7440cf54e56125eae4920d9671c437b8f19fa26de244088f724a0f6a60550805b2f67b3e82e420e87c5781e78cf1751a0cc086eca246056ed74da823d2141f3bda7322bd262274cba6699d82df763550e322317575404377ab222b892f0f7b5cd2b4cdcea037c436be067cc52d59edebad37c96b1af69c64b14ed4379a0112c776c6f90dd9348550759b49605acd7cc9ac8cdd393b1befc206a216e2c18868aaf05d6ca4de60eb97e17b9016489a6f55def55586b7295d0d77d23485c302ae3a678ea558c8242affbcba45519972aeeb1eda47d3c4acad354112a8ca83ef664e51fcf98fe7566284a7b0cecfc3cdba4d5a5e5d36428f8df9f10c807e68fadc63986b5535fa9decdb60d50365c81dd97500eefb8b9cf933c98429ca78f558392b117178c76fa6590d52f668e9eea3b201d22fb64168bb040eafa1f5aa78a490ceaba20b225a8931507941700428e0efdc90ee0cbacfe5024f99771341866ede4a8c0ec2c33b778db801a14c0b8270197f27db3f834be0c408ec2f7b209979dcd94831508f4bdd878d321778c2b9bb1efc8fbe8f1f0fe6a3dd02560852179bfa7aedd5728bf4dad7fe414bbf7dccfd8d3a22077fda6cab21f3b912956425e8ae0ae8f00aacd36af92cd549279bb83989e0574e25d44307ce1f7e819dbe54b18381e2eeade35fe62efcd46c32f3df784fb53d366f727fc653d816904dd1b72a5e3007382d8c3ffbc98da2b5651c8af28aed9763dce5af7a62e6572bb4ac2210fe76f769113cfb15da1a15e2cdb68adfad45618972e770721b225fea0e162e968da39237ec025f7e8304128da23c182a1c0b83d6405f50b11365c2d2d7b59fe40ebdd7351042aa53a185398494e0ee41d024d03347f0ea059c2bc5aaa68bebad1421ee94732b7200803f8f184936e43c71c0e0bc5b19ea1b11941a02556b951ae594a8940456706de5bd58ac0b5b567fc688c0f0e31fb34486331e94c248892f65cd5e0b0448e2024841af48aff38a3b8b6a5f429dd7e6ce5284c16fbd92d878b301234440b3d718aca8f556e5fc6ba16d38fa5a7395f8a1b41761da31d6afef2d2b86d7b88e02772c75beded2e6a2f7eeccaf24c7a46d0d9f56140e2e0bbd430f271f96e3d8a97bc5cade56c933bdbff7a51220c4a081f6878d1208d27b514a8dc33ea3983aa36829eac212237fb7d3458e4072c499dd74bd1d1f657ca4a43cb75c95e5126ccad63730751adcdd374b114d127845ed74a8536a95bbb372d36843a21fe6343a4b4697da75a134d71f8190460e7a25e78dfba5fc5acd72249b4f2597542b7dba569bdb4559949e91e3a0b6b9113682778135d37fe467c1aeb1c6a43535a7284407003deb08f955a9d34840b0d99f2a562b57e584936a00e0cf756c59cb5fde975064e2320511692d49e10d1626578cffe2cb960f760c5bcbfcef488a05223ba9dc5387f0da26314106f05eba883cfd469a8349179fddddd024d6b23c9fd7a29c18e66f8d42bffb16f75658f5058538e6334030570727e199b3e330ed997a077e1282fe053db74518a12e3e28cfaf16fda4acaa9736626b360f597c4cfce86ddeb9e971764f0f4bcc300111ad3b6f14eeff46937101d5c84499980b5</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
@@ -30,6 +30,14 @@
     
     
     
+    <category term="测试" scheme="http://example.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="用户经验" scheme="http://example.com/tags/%E7%94%A8%E6%88%B7%E7%BB%8F%E9%AA%8C/"/>
+    
+    <category term="花里胡哨" scheme="http://example.com/tags/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/"/>
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
     
   </entry>
   
@@ -382,7 +390,7 @@
     <link href="http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/3.%E9%85%8D%E7%BD%AE%E7%94%A8%E6%88%B7/"/>
     <id>http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/3.%E9%85%8D%E7%BD%AE%E7%94%A8%E6%88%B7/</id>
     <published>2020-04-25T01:16:24.740Z</published>
-    <updated>2020-09-07T10:01:21.644Z</updated>
+    <updated>2020-09-08T05:52:39.416Z</updated>
     
     <content type="html"><![CDATA[<p>1、配置用户</p><p>上面创建用户，接下来给vsftpd服务器中配置该用户</p><p>2、去掉匿名登录</p><p>默认情况下vsftpd服务器是允许匿名登录的，不安全。要关掉</p><p>首先通过vi命令打开ftp服务器配置文件：</p><p><code>vi /etc/vsftpd/vsftpd.conf</code></p><p>然后把本来的</p><p><code>anonymous_enable=YES</code><br>修改为</p><p><code>anonymous_enable=NO</code>修改完成之后，保存退出</p><p><img src="/blogimg/image-20200425092359061.png" alt="image-20200425092359061"></p><p>3、限制用户访问</p><p>为了不让刚才创建的用户，登录后随意切换到任意目录去，做限制，只允许访问<code>/home/ftp/ftptest</code>目录以及子目录。</p><p>配置方法：</p><p>首先通过vi命令打开ftp服务器配置文件：</p><p><code>vi /etc/vsftpd/vsftpd.conf</code></p><p>找到</p><pre><code class="hljs vala"><span class="hljs-meta">#chroot_list_enable=YES</span><span class="hljs-meta"># (default follows)</span><span class="hljs-meta">#chroot_list_file=/etc/vsftpd.chroot_list</span></code></pre><p>修改为：</p><pre><code class="hljs ini"><span class="hljs-attr">chroot_list_enable</span>=<span class="hljs-literal">YES</span><span class="hljs-comment"># (default follows)</span><span class="hljs-attr">chroot_list_file</span>=/etc/vsftpd/chroot_list</code></pre><p>chroot_list_enable=YES： 表示对用户访问进行限制<br>chroot_list_file=/etc/vsftpd/chroot_list 表示对chroot_list里面指定的用户进行限制 下一个步骤用户清单就会对chroot_list 这个文件进行编辑</p><p><img src="/blogimg/image-20200425093532375.png" alt="image-20200425093532375"></p><p>修改完成之后，保存退出。</p><p>4、用户清单</p><p>在chroot_list中添加ftptest用户</p><p>首先通过vi命令打开chroot_list文件(此文件本来是空的)：</p><p> <code>vi /etc/vsftpd/chroot_list</code></p><p>然后增加一行: ftptest</p><p><img src="/blogimg/image-20200425093833565.png" alt="/image-20200425093833565"></p><p>修改完成之后，保存退出。</p><p>5、允许写权限</p><p>vsftpd服务器是这样的，一旦某个用户被限制访问了，那么默认情况下，该用户的写权限也被剥夺了。 这就导致ftp客户端连接上服务器之后无法上传文件。<br>这个时候，就需要打开此用户的写权限，请按照如下办法操作：<br>首先通过vi命令打开ftp服务器配置文件：</p><p> <code>vi /etc/vsftpd/vsftpd.conf</code><br>在最后面新加一行：</p><p> <code>allow_writeable_chroot=YES</code></p><p><img src="/blogimg/image-20200425095349642.png" alt="image-20200425095349642"></p><p> 修改完成之后，保存退出。</p>]]></content>
     
