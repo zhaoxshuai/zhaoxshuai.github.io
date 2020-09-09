@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>控制流</title>
+    <link href="/2020/09/09/On%20Java8/%E6%8E%A7%E5%88%B6%E6%B5%81/"/>
+    <url>/2020/09/09/On%20Java8/%E6%8E%A7%E5%88%B6%E6%B5%81/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Break-continue"><a href="#Break-continue" class="headerlink" title="Break continue"></a>Break continue</h1><ol><li>简单的一个continue会退回最内层循环的开头（顶部），并继续执行。</li><li>带有标签的continue会到达标签的位置，并重新进入紧接在那个标签后面的循环。</li><li>break会中断当前循环，并移离当前标签的末尾。</li><li>带标签的break会中断当前循环，并移离由那个标签指示的循环末尾。</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>On Java8</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>On Java</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>CAS</title>
     <link href="/2020/09/03/%E9%AB%98%E5%B9%B6%E5%8F%91/CAS/"/>
     <url>/2020/09/03/%E9%AB%98%E5%B9%B6%E5%8F%91/CAS/</url>

@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-09-08T07:01:38.594Z</updated>
+  <updated>2020-09-09T06:16:55.849Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>控制流</title>
+    <link href="http://example.com/2020/09/09/On%20Java8/%E6%8E%A7%E5%88%B6%E6%B5%81/"/>
+    <id>http://example.com/2020/09/09/On%20Java8/%E6%8E%A7%E5%88%B6%E6%B5%81/</id>
+    <published>2020-09-09T06:10:32.327Z</published>
+    <updated>2020-09-09T06:16:55.849Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Break-continue"><a href="#Break-continue" class="headerlink" title="Break continue"></a>Break continue</h1><ol><li>简单的一个continue会退回最内层循环的开头（顶部），并继续执行。</li><li>带有标签的continue会到达标签的位置，并重新进入紧接在那个标签后面的循环。</li><li>break会中断当前循环，并移离当前标签的末尾。</li><li>带标签的break会中断当前循环，并移离由那个标签指示的循环末尾。</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Break-continue&quot;&gt;&lt;a href=&quot;#Break-continue&quot; class=&quot;headerlink&quot; title=&quot;Break continue&quot;&gt;&lt;/a&gt;Break continue&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;简单的一个continue会退回</summary>
+      
+    
+    
+    
+    <category term="On Java8" scheme="http://example.com/categories/On-Java8/"/>
+    
+    
+    <category term="On Java" scheme="http://example.com/tags/On-Java/"/>
+    
+  </entry>
   
   <entry>
     <title>CAS</title>
@@ -520,33 +545,6 @@
     <category term="服务器搭建" scheme="http://example.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/"/>
     
     <category term="FTP" scheme="http://example.com/tags/FTP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>0.FTP介绍</title>
-    <link href="http://example.com/2020/04/24/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/0.FTP%E4%BB%8B%E7%BB%8D/"/>
-    <id>http://example.com/2020/04/24/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/0.FTP%E4%BB%8B%E7%BB%8D/</id>
-    <published>2020-04-24T10:23:24.807Z</published>
-    <updated>2020-09-08T06:47:38.270Z</updated>
-    
-    <content type="html"><![CDATA[<p>1、ftp做什么用</p><p>Linux上安装ftp服务器。ftp的全称是File Transfer Protocol：文件传输协议。</p><p>实质ftp就是我们将本地的文件传输到服务器上，或者从服务器上下载文件用的。</p><p>2、安装服务器相关内容</p><p>Linux上的ftp服务器有各种型号，我们会使用vsftpd，全称是：very secure FTP daemon 非常安全的ftp后台程序。。。</p><p>为了使得这个服务器可以使用还要做许多配合工作，比如创建用户，配置端口，开放端口等等。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;1、ftp做什么用&lt;/p&gt;
-&lt;p&gt;Linux上安装ftp服务器。ftp的全称是File Transfer Protocol：文件传输协议。&lt;/p&gt;
-&lt;p&gt;实质ftp就是我们将本地的文件传输到服务器上，或者从服务器上下载文件用的。&lt;/p&gt;
-&lt;p&gt;2、安装服务器相关内容&lt;/p&gt;</summary>
-      
-    
-    
-    
-    <category term="FTP" scheme="http://example.com/categories/FTP/"/>
-    
-    
-    <category term="服务器搭建 - FTP" scheme="http://example.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA-FTP/"/>
     
   </entry>
   
