@@ -178,6 +178,196 @@
     
     
       <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/3.%E9%85%8D%E7%BD%AE%E7%94%A8%E6%88%B7/" target="_self">
+          <img src="https://static.runoob.com/images/demo/demo2.jpg" srcset="/img/loading.gif" alt="3.配置用户">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/3.%E9%85%8D%E7%BD%AE%E7%94%A8%E6%88%B7/">3.配置用户</a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/3.%E9%85%8D%E7%BD%AE%E7%94%A8%E6%88%B7/">
+          
+          
+            
+          
+          1、配置用户
+上面创建用户，接下来给vsftpd服务器中配置该用户
+2、去掉匿名登录
+默认情况下vsftpd服务器是允许匿名登录的，不安全。要关掉
+首先通过vi命令打开ftp服务器配置文件：
+vi /etc/vsftpd/vsftpd.conf
+然后把本来的
+anonymous_enable=YES修改为
+anonymous_enable=NO修改完成之后，保存退出
+
+3、限制用户访问
+为了不让刚
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2020-04-25 09:16" pubdate>
+              2020-04-25
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/FTP/">FTP</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/">服务器搭建</a>
+            
+              <a href="/tags/FTP/">FTP</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/2.ftp%E7%94%A8%E6%88%B7/" target="_self">
+          <img src="https://static.runoob.com/images/demo/demo2.jpg" srcset="/img/loading.gif" alt="2.ftp用户">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/2.ftp%E7%94%A8%E6%88%B7/">2.ftp用户</a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/2.ftp%E7%94%A8%E6%88%B7/">
+          
+          
+            
+          
+          1、用户概念
+要连接上vsftpd服务器需要为Linux创建专门的用户。
+2、用户目录
+在Linux中，不同用户是有不同目录访问权限的，所以首先创建一个目录，作为这个ftp用户所拥有的目录。
+Mkdir -p /home/ftp/ftptest
+3、创建用户
+执行如下命令，创建用户ftptest,并且指定其目录为用户目录创建的/home/ftp/ftptest
+useradd -d /home/f
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2020-04-25 08:53" pubdate>
+              2020-04-25
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/FTP/">FTP</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/">服务器搭建</a>
+            
+              <a href="/tags/FTP/">FTP</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/1.%E5%AE%89%E8%A3%85vsftpd/" target="_self">
+          <img src="https://static.runoob.com/images/demo/demo2.jpg" srcset="/img/loading.gif" alt="1.安装vfftpd">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/1.%E5%AE%89%E8%A3%85vsftpd/">1.安装vfftpd</a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/1.%E5%AE%89%E8%A3%85vsftpd/">
+          
+          
+            
+          
+          1、介绍vsftpd
+vsftpd 全称是：very secure FTP daemon 非常安全的ftp后台程序，及ftp 服务端
+2、安装命令
+yum install vsftpd -y
+执行之后，最后看到Complete! 就表示安装成功了
+3、查看服务启动状态
+启动：systemctl start vsftpd.service
+查看启动状态：systemctl status vsftpd.
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2020-04-25 08:43" pubdate>
+              2020-04-25
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/FTP/">FTP</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/">服务器搭建</a>
+            
+              <a href="/tags/FTP/">FTP</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
         <a href="/2020/04/24/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/0.FTP%E4%BB%8B%E7%BB%8D/" target="_self">
           <img src="https://static.runoob.com/images/demo/demo2.jpg" srcset="/img/loading.gif" alt="0.FTP介绍">
         </a>
@@ -574,70 +764,11 @@ Spring Clou
     </article>
   </div>
 
-  <div class="row mx-auto index-card">
-    
-    
-      <div class="col-12 col-md-4 m-auto index-img">
-        <a href="/2020/04/15/SpringCloud/1.%E7%88%B6%E5%AD%90%E9%A1%B9%E7%9B%AE%E6%90%AD%E5%BB%BA/" target="_self">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxFB844UrZeQSenG52aTTXf2nrQ1F6FkWrHQ&usqp=CAU" srcset="/img/loading.gif" alt="1.父子项目搭建">
-        </a>
-      </div>
-    
-    <article class="col-12 col-md-8 mx-auto index-info">
-      <h1 class="index-header">
-        <a href="/2020/04/15/SpringCloud/1.%E7%88%B6%E5%AD%90%E9%A1%B9%E7%9B%AE%E6%90%AD%E5%BB%BA/">1.父子项目搭建</a>
-      </h1>
-
-      <p class="index-excerpt">
-        <a href="/2020/04/15/SpringCloud/1.%E7%88%B6%E5%AD%90%E9%A1%B9%E7%9B%AE%E6%90%AD%E5%BB%BA/">
-          
-          
-            
-          
-          主项目搭建-IDEA先搭建SpringBoot+springcloud主体架构（注意版本对应）。
-将父工程的src删除！没用，不会用到
-父工程springcloudDemo
-pom.xml
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-
-&lt;project xmlns=&quot;http://maven.ap
-        </a>
-      </p>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2020-04-15 14:38" pubdate>
-              2020-04-15
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-category"></i>
-            
-              <a href="/categories/SpringCloud/">SpringCloud</a>
-            
-          </div>
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/SpringCloud/">SpringCloud</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
 
 
   <nav aria-label="navigation">
     <span class="pagination" id="pagination">
-      <a class="extend prev" rel="prev" href="/page/2/"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+      <a class="extend prev" rel="prev" href="/page/2/"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/4/"><i class="iconfont icon-arrowright"></i></a>
     </span>
   </nav>
   
