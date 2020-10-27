@@ -232,7 +232,7 @@
             
               <p class="note note-info">
                 
-                  本文最后更新于：2 分钟前
+                  本文最后更新于：1 分钟前
                 
               </p>
             
@@ -593,33 +593,39 @@ rpoplpush 源列表 目的列表:底出顶进
 <li>数学集合类<ul>
 <li>差集：sdiff</li>
 <li>交集：sinter</li>
-<li>并集：sunion<pre><code class="hljs gherkin">
+<li>并集：sunion<pre><code class="hljs http">
+
+
+
+
 ![image-20200925133415606](/blogimg/image-20200925133415606.png)
 
 ![image-20200925133448672](/blogimg/image-20200925133448672.png)
 
-<span class="hljs-comment">## Hash(哈希)：（KV模式，但V是一个键值对）</span>
 
-<span class="hljs-comment">### 常用</span>
 
-|<span class="hljs-string"> 命令                                           </span>|<span class="hljs-string"> 描述                                                     </span>|
-|<span class="hljs-string"> ---------------------------------------------- </span>|<span class="hljs-string"> -------------------------------------------------------- </span>|
-|<span class="hljs-string"> HDEL key field1 [field2]                       </span>|<span class="hljs-string"> 删除一个或多个哈希表字段                                 </span>|
-|<span class="hljs-string"> HEXISTS key field                              </span>|<span class="hljs-string"> 查看哈希表 key 中，指定的字段是否存在。                  </span>|
-|<span class="hljs-string"> HGET key field                                 </span>|<span class="hljs-string"> 获取存储在哈希表中指定字段的值。                         </span>|
-|<span class="hljs-string"> HGETALL key                                    </span>|<span class="hljs-string"> 获取在哈希表中指定 key 的所有字段和值                    </span>|
-|<span class="hljs-string"> HINCRBY key field increment                    </span>|<span class="hljs-string"> 为哈希表 key 中的指定字段的整数值加上增量 increment 。   </span>|
-|<span class="hljs-string"> HINCRBYFLOAT key field increment               </span>|<span class="hljs-string"> 为哈希表 key 中的指定字段的浮点数值加上增量 increment 。 </span>|
-|<span class="hljs-string"> HKEYS key                                      </span>|<span class="hljs-string"> 获取所有哈希表中的字段                                   </span>|
-|<span class="hljs-string"> HLEN key                                       </span>|<span class="hljs-string"> 获取哈希表中字段的数量                                   </span>|
-|<span class="hljs-string"> HMGET key field1 [field2]                      </span>|<span class="hljs-string"> 获取所有给定字段的值                                     </span>|
-|<span class="hljs-string"> HMSET key field1 value1 [field2 value2 ]       </span>|<span class="hljs-string"> 同时将多个 field-value (域-值)对设置到哈希表 key 中。    </span>|
-|<span class="hljs-string"> HSET key field value                           </span>|<span class="hljs-string"> 将哈希表 key 中的字段 field 的值设为 value 。            </span>|
-|<span class="hljs-string"> HSETNX key field value                         </span>|<span class="hljs-string"> 只有在字段 field 不存在时，设置哈希表字段的值。          </span>|
-|<span class="hljs-string"> HVALS key                                      </span>|<span class="hljs-string"> 获取哈希表中所有值。                                     </span>|
-|<span class="hljs-string"> HSCAN key cursor [MATCH pattern] [COUNT count] </span>|<span class="hljs-string"> 迭代哈希表中的键值对。                                   </span>|
+## Hash(哈希)：（KV模式，但V是一个键值对）
 
-<span class="hljs-comment">### 案例</span>
+### 常用
+
+| 命令                                           | 描述                                                     |
+| ---------------------------------------------- | -------------------------------------------------------- |
+| HDEL key field1 [field2]                       | 删除一个或多个哈希表字段                                 |
+| HEXISTS key field                              | 查看哈希表 key 中，指定的字段是否存在。                  |
+| HGET key field                                 | 获取存储在哈希表中指定字段的值。                         |
+| HGETALL key                                    | 获取在哈希表中指定 key 的所有字段和值                    |
+| HINCRBY key field increment                    | 为哈希表 key 中的指定字段的整数值加上增量 increment 。   |
+| HINCRBYFLOAT key field increment               | 为哈希表 key 中的指定字段的浮点数值加上增量 increment 。 |
+| HKEYS key                                      | 获取所有哈希表中的字段                                   |
+| HLEN key                                       | 获取哈希表中字段的数量                                   |
+| HMGET key field1 [field2]                      | 获取所有给定字段的值                                     |
+| HMSET key field1 value1 [field2 value2 ]       | 同时将多个 field-value (域-值)对设置到哈希表 key 中。    |
+| HSET key field value                           | 将哈希表 key 中的字段 field 的值设为 value 。            |
+| HSETNX key field value                         | 只有在字段 field 不存在时，设置哈希表字段的值。          |
+| HVALS key                                      | 获取哈希表中所有值。                                     |
+| HSCAN key cursor [MATCH pattern] [COUNT count] | 迭代哈希表中的键值对。                                   |
+
+### 案例
 </code></pre></li>
 </ul>
 </li>
