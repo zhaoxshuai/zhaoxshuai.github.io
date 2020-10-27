@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-09-25T06:23:36.859Z</updated>
+  <updated>2020-10-27T12:01:07.236Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Redis数据类型及操作</title>
+    <link href="http://example.com/2020/10/27/Redis/redis2/"/>
+    <id>http://example.com/2020/10/27/Redis/redis2/</id>
+    <published>2020-10-27T12:00:14.696Z</published>
+    <updated>2020-10-27T12:01:07.236Z</updated>
+    
+    
+    
+    
+    <category term="Redis" scheme="http://example.com/categories/Redis/"/>
+    
+    
+    <category term="Redis" scheme="http://example.com/tags/Redis/"/>
+    
+  </entry>
   
   <entry>
     <title>集合</title>
@@ -488,35 +505,6 @@
 &lt;p&gt;2、鉴权方式&lt;/p&gt;
 &lt;p&gt;a、pam.d/vsftpd文件&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;vi /etc/pam.d</summary>
-      
-    
-    
-    
-    <category term="FTP" scheme="http://example.com/categories/FTP/"/>
-    
-    
-    <category term="服务器搭建" scheme="http://example.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/"/>
-    
-    <category term="FTP" scheme="http://example.com/tags/FTP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>4.配置端口</title>
-    <link href="http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/4.%E9%85%8D%E7%BD%AE%E7%AB%AF%E5%8F%A3/"/>
-    <id>http://example.com/2020/04/25/%E6%9C%8D%E5%8A%A1%E5%99%A8/FTP/4.%E9%85%8D%E7%BD%AE%E7%AB%AF%E5%8F%A3/</id>
-    <published>2020-04-25T04:35:45.095Z</published>
-    <updated>2020-09-08T06:51:27.072Z</updated>
-    
-    <content type="html"><![CDATA[<p>1、两种端口</p><p>vsftpd有两种端口，一个是21端口，用来监听客户端连接请求的。 这个一般说来是固定的，就一直使用21端口。<br>另一种是，一旦获取到请求之后，再专门用户服务端和客户端传输数据的端口。</p><p>2、配置端口</p><p>打开配置文件：</p><p> <code>vi /etc/vsftpd/vsftpd.conf</code><br>在最后添加：</p><pre><code class="hljs ini"><span class="hljs-attr">pasv_enable</span>=<span class="hljs-literal">YES</span><span class="hljs-attr">pasv_min_port</span>=<span class="hljs-number">30000</span><span class="hljs-attr">pasv_max_port</span>=<span class="hljs-number">30010</span></code></pre><p> 这表示使用被动模式，用于传输数据的端口分配从30000-30010之间。<br>在后续的Linux开放端口教程中也会做相应的配合工作。</p><p><img src="/blogimg/image-20200425124236426.png" alt="image-20200425124236426"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;1、两种端口&lt;/p&gt;
-&lt;p&gt;vsftpd有两种端口，一个是21端口，用来监听客户端连接请求的。 这个一般说来是固定的，就一直使用21端口。&lt;br&gt;另一种是，一旦获取到请求之后，再专门用户服务端和客户端传输数据的端口。&lt;/p&gt;
-&lt;p&gt;2、配置端口&lt;/p&gt;
-&lt;p&gt;打开配置文件：</summary>
       
     
     
