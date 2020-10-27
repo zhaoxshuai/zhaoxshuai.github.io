@@ -180,7 +180,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      5.2k 字
+      5.3k 字
     </span>
   
 
@@ -190,7 +190,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      61
+      62
        分钟
     </span>
   
@@ -232,7 +232,7 @@
             
               <p class="note note-info">
                 
-                  本文最后更新于：2 分钟前
+                  本文最后更新于：几秒前
                 
               </p>
             
@@ -582,6 +582,17 @@ rpoplpush 源列表 目的列表:底出顶进
 <td>迭代集合中的元素</td>
 </tr>
 </tbody></table>
+<pre><code class="hljs markdown"><span class="hljs-bullet">-</span> sadd/smembers/sismember
+<span class="hljs-bullet">-</span> scard，获取集合里面的元素个数
+<span class="hljs-bullet">-</span> srem key value 删除集合中元素
+<span class="hljs-bullet">-</span> srandmember key 某个整数(随机出几个数)
+<span class="hljs-bullet">-</span> spop key 随机出栈
+<span class="hljs-bullet">-</span> smove key1 key2 在key1里某个值 作用是将key1里的某个值赋给key2
+<span class="hljs-bullet">-</span> 数学集合类
+<span class="hljs-bullet">  -</span> 差集：sdiff
+<span class="hljs-bullet">  -</span> 交集：sinter
+<span class="hljs-bullet">  -</span> 并集：sunion</code></pre>
+
 <p><img src="/blogimg/image-20200925133415606.png" srcset="/img/loading.gif" alt="image-20200925133415606"></p>
 <p><img src="/blogimg/image-20200925133448672.png" srcset="/img/loading.gif" alt="image-20200925133448672"></p>
 <h2 id="Hash-哈希-：（KV模式，但V是一个键值对）"><a href="#Hash-哈希-：（KV模式，但V是一个键值对）" class="headerlink" title="Hash(哈希)：（KV模式，但V是一个键值对）"></a>Hash(哈希)：（KV模式，但V是一个键值对）</h2><h3 id="常用-2"><a href="#常用-2" class="headerlink" title="常用"></a>常用</h3><table>
@@ -745,7 +756,7 @@ rpoplpush 源列表 目的列表:底出顶进
 <td>迭代有序集合中的元素（包括元素成员和元素分值）</td>
 </tr>
 </tbody></table>
-<h3 id="案例-1"><a href="#案例-1" class="headerlink" title="案例"></a>案例</h3><p>*<strong><strong><strong><strong>**</strong></strong></strong></strong>@@@@@@@@</p>
+<h3 id="案例-1"><a href="#案例-1" class="headerlink" title="案例"></a>案例</h3><p>代写。。。。。。</p>
 <h2 id="配置文件介绍"><a href="#配置文件介绍" class="headerlink" title="配置文件介绍"></a>配置文件介绍</h2><p>redis的配置文件位于redis的安装目录下，文件名为redis.conf。可以通过config命令查看或设置配置项。</p>
 <p>实例：</p>
 <pre><code class="hljs routeros">redis 127.0.0.1:6379&gt;<span class="hljs-built_in"> CONFIG </span><span class="hljs-builtin-name">GET</span> loglevel
