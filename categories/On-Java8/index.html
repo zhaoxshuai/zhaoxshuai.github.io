@@ -19,7 +19,7 @@
   <meta name="description" content="个人博客">
   <meta name="author" content="赵帅">
   <meta name="keywords" content="">
-  <title>分类 - On Java8 - 赵帅的博客</title>
+  <title>分类 - On java8 - 赵帅的博客</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
@@ -170,22 +170,16 @@
                 
 
 <div class="list-group">
-  <p class="h4">共计 2 篇文章</p>
+  <p class="h4">共计 1 篇文章</p>
   <hr>
   
     
       
       <p class="h5">2020</p>
     
-    <a href="/2020/09/09/On%20Java8/%E6%8E%A7%E5%88%B6%E6%B5%81/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">控制流</span>
-      <time style="float: right;">09-09</time>
-    </a>
-  
-    
-    <a href="/2020/08/31/On%20Java8/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%A6%82%E5%BF%B5/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">第一章 对象的概念</span>
-      <time style="float: right;">08-31</time>
+    <a href="/2020/09/24/On%20Java8/%E9%9B%86%E5%90%88/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">集合</span>
+      <time style="float: right;">09-24</time>
     </a>
   
 </div>
@@ -485,7 +479,7 @@
       if ('false' === 'true') {
         var viewCtn = document.querySelector('#leancloud-post-views-container');
         if (viewCtn || enableIncr) {
-          var target = decodeURI('/categories/On-Java8/index.html');
+          var target = decodeURI('/categories/On-java8/index.html');
           var viewGetter = getRecord(Counter, target).then((record) => {
             incrArr.push(buildIncrement(record.objectId))
             if (viewCtn) {
@@ -554,7 +548,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "分类 - On Java8&nbsp;",
+        "分类 - On java8&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -626,6 +620,48 @@
           //详情请看http://www.w3school.com.cn/jquery/effect_animate.asp
           $i.animate({
             //将原来的位置向上移动180
+            "top": y - 180,
+            "opacity": 0
+            //1500动画的速度
+          }, 1500, function () {
+            //时间到了自动删除
+            $i.remove();
+          });
+        });
+      })
+      ;
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+</body>
+</html>
+�移动180
             "top": y - 180,
             "opacity": 0
             //1500动画的速度
